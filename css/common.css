@@ -1,0 +1,110 @@
+.lf {
+  float: left;
+}
+hr {
+  color: #FFF667;
+  background-color: #FFF667;
+  height: 2px;
+}
+.rt {
+  float: right;
+}
+.clear {
+  overflow: hidden;
+}
+/*整体布局*/
+#top-main,
+#nav,
+#main,
+#aside,
+#top-logo,
+#footer-main {
+  width: 92%;
+  margin: 0 auto;
+  border: 1px solid #000;
+}
+#top,
+#footer {
+  width: 100%;
+  height: 2.875rem;
+  background: #F2F2F2;
+  vertical-align: middle;
+}
+#top-logo {
+  overflow: hidden;
+}
+#top-logo .setIndex {
+  margin-left: 4rem;
+  margin-top: .5rem;
+  width: 2rem;
+  height: 2rem;
+  background: #009944;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+#top-logo image {
+  max-width: 100%;
+}
+#top-logo ul {
+  margin-left: 3rem;
+}
+#top-logo ul li {
+  font-size: 1rem;
+  color: #626262;
+  line-height: 46px;
+  float: left;
+}
+#top-logo ul li a {
+  color: #626262;
+  text-align: left;
+  display: inline-block;
+  padding-right: 25px;
+  background: url("../images/down.png") no-repeat center right;
+  text-decoration: none;
+}
+#top-logo ul li b {
+  border: 1px solid #999;
+}
+#top-logo #top-right {
+  line-height: 46px;
+  color: #666;
+  text-align: right;
+}
+#top-logo #top-right a {
+  color: #666;
+  text-decoration: none;
+}
+#top-logo #top-right b {
+  height: 12px;
+  border-left: 1px solid #666;
+  margin-left: 8px;
+  padding-left: 8px;
+}
+#top-logo #top-right span {
+  color: #FE9B0E;
+}
+#footer-main {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 46px;
+}
+#footer-main img {
+  vertical-align: middle;
+}
+#footer-main a {
+  color: #999;
+  margin: 0 10px;
+}
+#footer-main a:hover {
+  text-decoration: none;
+}
+#footer-main a:nth-child(5) {
+  padding-left: 20px;
+  background: url("../images/logo_bt1.png") no-repeat center left;
+}
+#footer-main a:nth-child(6) {
+  padding-left: 20px;
+  background: url("../images/logo_bt2.png") no-repeat center left;
+}

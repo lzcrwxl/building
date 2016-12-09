@@ -1,0 +1,176 @@
+//搜索栏
+#top-main {
+  border: 1px solid #000;
+  min-height: 50px;
+  padding: 5px 0 5px 10px;
+  .search-wrapper {
+    padding-left: 130px;
+    background: url("../images/baidu.png") no-repeat left top;
+    overflow: hidden;
+  }
+}
+
+.inner-wrapper {
+  display: inline-block;
+  font-size: 0;
+}
+
+//热词搜索
+.hotSearchBox {
+  ul {
+    margin: 10px 0;
+    overflow: hidden;
+    li {
+      float: left;
+      margin-right: 15px;
+      font-size: 0.8rem;
+      a {
+        color: #999;
+      }
+    }
+    .title {
+      width: 15px;
+      height: 15px;
+      text-align: center;
+      margin-right: 5px;
+      a {
+        padding-left: 15px;
+        background: url("../images/btn_search.png") no-repeat center left;
+      }
+    }
+  }
+}
+
+//搜索输入框
+.input-wrapper {
+  position: relative;
+  display: inline-block;
+  height: 100%;
+  .search-input {
+    font-size: 1rem;
+    padding: 0 3px;
+    height: 42px;
+  }
+  .hotword-hook {
+    position: absolute;
+    right: 5px;
+    top: 12px;
+    border-radius: 50%;
+    background: #EA5006;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+}
+
+.button-wrapper {
+  display: inline-block;
+  border: 1px solid #A9A9A9;
+  border-left: 0;
+
+}
+
+//搜索按钮
+.search-button {
+  height: 40px;
+  width: 100px;
+  font-size: 1.2rem;
+  color: #333;
+  border: 0;
+  background-image: linear-gradient(to top, #E3E3E3, #fff);
+}
+
+//搜索框尺寸
+.bg-input {
+  width: 442px;
+}
+
+.sm-input {
+  width: 178px;
+}
+
+//搜索栏新闻
+.notice {
+  margin: 0px 5px 0 20px;
+  display: inline-block;
+  position: relative;
+  padding: 0 20px;
+  color: #E61A15;
+  background: url("../images/refresh.png") no-repeat 219px center #FAFAFA;
+  border-radius: 21px;
+  height: 42px;
+  width: 246px;
+  span {
+    display: inline-block;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    top: 15px;
+    background: #E61A15;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  a {
+    display: inline-block;
+    position: relative;
+    top: 9px;
+    width: 10rem;
+    padding-left: 30px;
+    color: #E61A15;
+    font-size: 1rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+}
+
+//手机上
+@media screen and (max-width: 767px ) {
+  #top-main .search-wrapper {
+    background-image: none;
+    padding-left: 0;
+  }
+
+  .bg-input {
+    width: 100%;
+    height: 100%;
+  }
+
+  .hotword-hook {
+    display: none;
+  }
+
+  .search-button {
+    width: 100%;
+  }
+}
+
+//导航栏左侧
+.nav-box-lf{
+  display: inline-block;
+  width: 9%;
+  height: 86px;
+  background: #FFF100;
+  text-align: center;
+  line-height: 86px;
+  font-size:1rem;
+}
+//导航栏右侧
+#nav{
+  overflow: hidden;
+}
+.nav-rt{
+  width: 91%;
+  .nav-rt-list{
+    float:left;
+    height: 43px;
+    width: 11%;
+    text-align: center;
+    line-height: 43px;
+    font-size:1rem;
+  }
+}

@@ -1,0 +1,116 @@
+//边框颜色基本样式
+@box-border:#FFF667;
+
+//简写样式
+.lf {
+  float: left;
+}
+hr{
+  color: @box-border;
+  background-color: @box-border;
+  height: 2px;
+}
+.rt {
+  float: right;
+}
+
+.clear {
+  overflow: hidden;
+}
+
+/*整体布局*/
+#top-main, #nav, #main, #aside, #top-logo, #footer-main {
+  width: 92%;
+  margin: 0 auto;
+  border: 1px solid #000;
+}
+
+//头部、底部
+#top, #footer {
+  width: 100%;
+  height: 2.875rem;
+  background: #F2F2F2;
+  vertical-align: middle;
+}
+
+//头部链接
+#top-logo {
+  overflow: hidden;
+  .setIndex {
+    margin-left: 4rem;
+    margin-top: .5rem;
+    width: 2rem;
+    height: 2rem;
+    background: #009944;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+  }
+  image {
+    max-width: 100%;
+  }
+  ul {
+    margin-left: 3rem;
+    li {
+      font-size: 1rem;
+      color: #626262;
+      line-height: 46px;
+      float: left;
+      a {
+        color: #626262;
+        text-align: left;
+        display: inline-block;
+        padding-right: 25px;
+        background: url("../images/down.png") no-repeat center right;
+        text-decoration: none;
+      }
+      b {
+        border: 1px solid #999;
+      }
+    }
+  }
+  #top-right {
+    line-height: 46px;
+    color: #666;
+    text-align: right;
+    a {
+      color: #666;
+      text-decoration: none
+    }
+    b {
+      height: 12px;
+      border-left: 1px solid #666;
+      margin-left: 8px;
+      padding-left: 8px;
+    }
+    span {
+      color: #FE9B0E;
+    }
+  }
+}
+
+#footer-main {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 46px;
+  img{
+    vertical-align: middle;
+  }
+  a {
+    color: #999;
+    margin: 0 10px;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  a:nth-child(5) {
+    padding-left: 20px;
+    background: url("../images/logo_bt1.png") no-repeat center left;
+  }
+  a:nth-child(6) {
+    padding-left: 20px;
+    background: url("../images/logo_bt2.png") no-repeat center left;
+  }
+}
+
