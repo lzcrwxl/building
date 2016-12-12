@@ -1,3 +1,6 @@
+a {
+  color: #A2A2A2;
+}
 #top-main {
   border: 1px solid #000;
   min-height: 50px;
@@ -86,7 +89,7 @@
   background: url("../images/refresh.png") no-repeat 219px center #FAFAFA;
   border-radius: 21px;
   height: 42px;
-  width: 246px;
+  width: 244px;
 }
 .notice span {
   display: inline-block;
@@ -148,4 +151,504 @@
   text-align: center;
   line-height: 43px;
   font-size: 1rem;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.nav-rt .nav-rt-list a {
+  color: #666;
+}
+.nav-rt .current a {
+  color: #F6F731;
+}
+.nav-top-box2 {
+  border: 1px solid #CBCBCB;
+  height: 50px;
+  padding: 0 20px;
+  line-height: 50px;
+}
+.nav-top-box2 .nav-rt2 li {
+  float: left;
+  margin-right: 20px;
+  font-size: 14px;
+}
+.nav-top-box2 .nav-rt2 li a {
+  color: #959595;
+}
+.nav-top-box2 .nav-rt2 .select {
+  color: #168050;
+}
+#main {
+  margin-top: 10px;
+}
+#lfSideBar {
+  width: 20%;
+  min-height: 50px;
+  border: 1px solid #CBCBCB;
+  padding-left: 3px;
+}
+.subSideLeft .subSideTitle {
+  padding: 0 10px 0 8px;
+  height: 36px;
+  line-height: 36px;
+}
+.subSideLeft .subSideTitle h1 {
+  float: left;
+  font-size: 1.1rem;
+  color: #F6F731;
+  line-height: 36px;
+}
+.subSideLeft .subSideTitle .titleChange {
+  padding-left: 23px;
+  background: url("../images/titlechange.png") no-repeat center left;
+}
+.subSideLeft .subSideList li {
+  border: 1px solid #CBCBCB;
+  border-left: 0;
+  float: left;
+  width: 25%;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+}
+.subSideLeft .subSideList li:last-child {
+  border-right: 0;
+}
+.subSideLeft .subSideList li:hover {
+  cursor: pointer;
+}
+.subSideLeft .subSideList .current {
+  border-top: 2px solid #F6F731;
+  font-weight: bold;
+  color: #333;
+  border-bottom: none;
+}
+.subSideLeft .subSideDetail {
+  overflow: hidden;
+  margin-top: 5px;
+}
+.subSideLeft .subSideDetail .subDetail-1 {
+  margin: 10px;
+}
+.subSideLeft .subSideDetail .subDetail-1 li {
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.subSideLeft .subSideDetail .subDetail-1 li .subDetail-top {
+  margin-right: 5px;
+}
+.subSideLeft .subSideDetail .subDetail-1 li:not(:first-child) {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.subDetail-2 li {
+  width: 50%;
+  float: left;
+  text-align: center;
+  margin-top: 5px;
+}
+.subSideList-2 li {
+  float: left;
+  width: 20%;
+  text-align: center;
+  border-top: 1px solid #CBCBCB;
+  padding: 5px 0;
+  cursor: pointer;
+}
+.subSideList-2 li b {
+  border-left: 1px solid #CBCBCB;
+  height: 12px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.subSideList-2 .current {
+  border-top: 1px solid #009944;
+  color: #009944;
+}
+.subSideBanner img {
+  width: 100%;
+}
+#rtSideBar {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+#rtSideBar .rtSideMain {
+  margin-right: 10px;
+}
+#rtSideBar .rtSideMain .rtSideDetail {
+  margin-bottom: 3px;
+}
+#rtSideBar .rtSideMain .rtSideDetail li {
+  margin-left: 5px;
+  float: left;
+}
+#rtSideBar .rtSideForum ul {
+  border-top: 1px solid #F6F731;
+}
+#rtSideBar .rtSideForum ul li {
+  border: 1px solid #F6F731;
+  border-top: 0;
+  padding: 10px 11px;
+}
+#rtSideBar .rtSideForum ul .forumTitle {
+  color: #009944;
+  font-size: 1.2rem;
+}
+#rtSideBar .rtSideForum ul .forumCtn {
+  text-align: center;
+  font-size: 1rem;
+}
+.hotWords {
+  text-align: center;
+  margin: 10px 0;
+}
+.hotWords span {
+  font-size: 1rem;
+  color: #E10017;
+}
+.hotWords a {
+  font-size: 0.8rem;
+  margin: 10px;
+}
+.linkList {
+  border: 1px solid #F6F731;
+}
+.linkList .linkListMain {
+  width: 92%;
+  border-right: 1px solid #F6F731;
+}
+.linkList .linkListMain ul {
+  margin-left: 10px;
+}
+.linkList .linkListMain ul li {
+  float: left;
+  width: 16.66%;
+  height: 40px;
+  line-height: 40px;
+}
+.linkList .linkListMain ul li a {
+  font-size: 1rem;
+}
+.linkList .linkListMore {
+  line-height: 1120px;
+  padding-left: 10px;
+}
+.linkList .linkListMore a {
+  color: #009944;
+  font-size: 1rem;
+}
+.mainLinkCtn {
+  border: 1px solid #F6F731;
+  min-height: 50px;
+  padding-left: 20px;
+}
+.mainLinkCtn .mainLinkList {
+  height: 40px;
+  line-height: 40px;
+  font-size: 1rem;
+}
+.mainLinkCtn .mainLinkList li {
+  margin-right: 7px;
+  text-align: left;
+  float: left;
+  width: 10%;
+}
+.mainLinkCtn .mainLinkList .mainLinkTitle,
+.mainLinkCtn .mainLinkList .linkMore a {
+  width: 7%;
+  color: #009944;
+}
+.mainLinkCtn .mainLinkList .linkMore {
+  margin-right: 10px;
+  float: right;
+  width: 5%;
+}
+.mainbox {
+  margin: 20px 0;
+  border: 1px solid #F6F731;
+}
+.recommandWebsite {
+  margin: 20px 0;
+  border: 1px solid #F6F731;
+}
+.recommandWebsite .recommandMain {
+  border-top: 1px solid #F6F731;
+  padding: 10px 8px 8px 15px;
+  min-height: 50px;
+}
+.recommandWebsite .recommandMain .recommandlfTop a {
+  margin-right: 20px;
+}
+.recommandWebsite .recommandMain .recommandlfCtn ul {
+  float: left;
+  width: 12.5%;
+}
+.recommandWebsite .recommandMain .recommandlfCtn ul li {
+  margin-top: 5px;
+}
+.recommandWebsite .recommandMain .recommandlfCtn ul li a {
+  padding-left: 20px;
+}
+.recommandWebsite .recommandMain .recommandrt {
+  width: 19%;
+}
+.recommandWebsite .recommandMain .recommandrt h1 {
+  font-size: 0.8rem;
+  color: #009944;
+}
+.recommandWebsite .recommandMain .recommandrt dl {
+  margin: 5px 0 20px 0;
+  width: 100%;
+}
+.recommandWebsite .recommandMain .recommandrt dl dt {
+  float: left;
+  margin-right: 10px;
+}
+.recommandWebsite .recommandMain .recommandrt dl dd span {
+  padding-left: 100px;
+  background: url("../images/star.png") no-repeat center left;
+}
+.recommandWebsite .recommandMain .recommandrt dl dd span a {
+  float: right;
+  border: 1px solid #009944;
+  padding: 0 3px;
+  color: #009944;
+}
+.recommandWebsite .recommandMain .recommandrt ul {
+  border-top: 1px solid #F6F731;
+  width: 50%;
+  float: left;
+}
+.recommandWebsite .recommandMain .recommandrt ul li {
+  margin-top: 5px;
+}
+.recommandWebsite .recommandMain .recommandrt ul li a {
+  padding-left: 20px;
+}
+.navlist {
+  float: right;
+  padding: 5px 20px;
+}
+.navlist li {
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+  float: left;
+  font-size: 1rem;
+}
+.navlist li b {
+  border-left: 2px solid #CBCBCB;
+  margin: 0 20px;
+}
+.categories {
+  border: 1px solid #F6F731;
+  min-height: 50px;
+}
+.categories .category-wrapper {
+  width: 33.3%;
+  padding: 20px 30px 15px 50px;
+  border-right: 2px dotted #F6F731;
+  font-size: 1rem;
+}
+.categories .category-wrapper .category-list {
+  font-size: 0;
+  height: 40px;
+  line-height: 40px;
+}
+.categories .category-wrapper .category-list li {
+  display: inline-block;
+  width: 20%;
+  font-size: 1rem;
+}
+.categories .content-rt {
+  border-right: 0;
+}
+.listTitle {
+  color: #009944;
+}
+.titlebuy {
+  line-height: 42px;
+  margin: 0 10px;
+  border-bottom: 1px solid #F6F731;
+  font-size: 1rem;
+  color: #333;
+}
+.titlebuy ul {
+  float: right;
+}
+.mainBuy {
+  margin: 10px 20px 10px 10px;
+}
+.mainBuy .buyRt {
+  margin-left: 30px;
+  position: relative;
+}
+.mainBuy .buyRt ul {
+  margin-bottom: 5px;
+}
+.mainBuy .buyRt ul li {
+  position: relative;
+  margin-left: 5px;
+  float: left;
+}
+.mainBuy .buyRt ul li span {
+  position: absolute;
+  bottom: 3px;
+  height: 50px;
+  line-height: 50px;
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 0.8rem;
+}
+.mainBuy .buyRt i {
+  position: absolute;
+  z-index: 9999;
+  top: 130px;
+}
+.mainBuy .buyRt .arrowlf {
+  left: -5px;
+  top: 130px;
+}
+.mainBuy .buyRt .arrowrt {
+  top: 135px;
+  right: -8px;
+}
+.arrow {
+  position: absolute;
+  z-index: 9999;
+}
+.game {
+  padding: 0 10px;
+}
+.gameTitle {
+  font-size: 1rem;
+  color: #333;
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid #F6F731;
+}
+.gameTitle .playgame {
+  background: url("../images/icon_52.png") no-repeat center left;
+  width: 10%;
+  padding-left: 28px;
+}
+.gameTitle .gameList {
+  float: left;
+}
+.gameTitle .gameList li {
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.gameTitle .gameLink {
+  padding-right: 40px;
+}
+.gamePannel {
+  min-height: 50px;
+  padding: 10px;
+}
+.gamePannel .gamePannelLf {
+  width: 20%;
+}
+.gamePannel .gamePannelLf .gmSmPannel {
+  margin-top: 20px;
+}
+.gamePannel .gamePannelLf .gmSmPannel dl {
+  width: 33%;
+  margin-bottom: 10px;
+}
+.gamePannel .gamePannelLf .gmSmPannel dl dd {
+  margin-top: 5px;
+  text-align: center;
+}
+.gamePannel .gamePannelmd {
+  width: 60%;
+  position: relative;
+}
+.gamePannel .gamePannelmd .arrowlf {
+  top: 120px;
+}
+.gamePannel .gamePannelmd dl {
+  width: 14.28%;
+}
+.gamePannel .gamePannelrt {
+  position: relative;
+  width: 20%;
+}
+.gamePannel .gamePannelrt .arrowrt {
+  top: 120px;
+  right: -5px;
+}
+.gamePannel .gamePannelrt ul {
+  margin-top: 10px;
+}
+.gamePannel .gamePannelrt ul li {
+  background: #F2F2F2;
+  padding: 5px 10px;
+  margin: 5px 0;
+  max-width: 232px;
+}
+.gamePannel .gamePannelrt ul li a {
+  font-size: 0.8rem;
+}
+.current {
+  border-top: 1px solid #009944;
+  color: #009944;
+}
+.gmicon {
+  float: left;
+  margin-bottom: 10px;
+}
+.gmicon dd {
+  margin-top: 5px;
+  text-align: center;
+}
+.liveTitle {
+  font-size: 1rem;
+  color: #333;
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid #F6F731;
+}
+.liveTitle .hjLive {
+  background: url("../images/icon_60.png") no-repeat center left;
+  width: 10%;
+  padding-left: 28px;
+}
+.liveMain {
+  font-size: 0;
+  padding: 10px 20px 10px 10px;
+}
+.liveMain .liveRt {
+  margin-right: 30px;
+}
+.liveMain .liveRt ul {
+  float: right;
+  margin-left: 25px;
+}
+.liveMain .liveRt ul li {
+  margin-bottom: 5px;
+}
+#aside {
+  background: #FAFAFA;
+  width: 6%;
+  position: fixed;
+  top: 50px;
+  right: 0;
+  font-size: 0.6rem;
+}
+#aside img {
+  max-width: 100%;
+  cursor: pointer;
+}
+#aside ul li {
+  border: 1px solid #F6F731;
+  text-align: center;
+  margin: 5px;
+}
+#aside ul li a {
+  font-size: 0.8rem;
 }
