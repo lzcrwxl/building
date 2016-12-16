@@ -1,0 +1,107 @@
+//基本颜色
+@grey-lg: #CBCBCB;
+@grey-dk: #666;
+@color-title-yellow: #F6F731;
+@color-yellow-dk: #FFF100;
+@font-base-grey: #A2A2A2;
+@font-title-green: #009944;
+a {
+  color: @font-base-grey;
+}
+
+
+
+#top-main {
+  border-bottom: 1px solid @color-title-yellow;
+  .shoppingTitle {
+    width: 15%;
+    color: @font-title-green;
+    font-size: 1.3rem;
+    //font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+  }
+  img {
+    margin-right: 50px;
+    vertical-align: middle;
+  }
+}
+
+#nav {
+  margin-top: 20px;
+}
+
+.salesNav {
+  border: 1px solid @color-title-yellow;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  .salesNavList {
+    font-size: 0;
+    li {
+      font-size: 1.4rem;
+      color: @grey-dk;
+      float: left;
+      width: 14.286%;
+      cursor: pointer;
+    }
+  }
+}
+
+.current {
+  background: @color-yellow-dk;
+  color: #fff !important;
+}
+
+.salesNavMain {
+  margin-top: 5px;
+  font-size: 0;
+  .showbox{
+    width: 33%;
+    margin: 5px 2px;
+  }
+  .mainCtn {
+    vertical-align: middle;
+    font-size: 1rem;
+    display: block;
+    min-height: 50px;
+    border: 1px solid @color-title-yellow;
+    border-top: none;
+    margin: 0 2px;
+    padding: 20px 20px;
+    .ctnlf {
+      width: 60%;
+      .describe {
+        margin-bottom: 5px;
+      }
+      .detail{
+        font-size: 0.8rem;
+        padding-left: 5px;
+      }
+    }
+    .ctnrt{
+      font-size: 1rem;
+      margin-left: 40px;
+      vertical-align: 11px;
+      text-align: right;
+      .price{
+        color: @color-yellow-dk;
+      }
+    }
+  }
+}
+.more{
+  border: 1px solid @color-title-yellow;
+  height: 50px;
+  line-height:50px;
+  width:60%;
+  margin: 5px auto;
+  text-align: center;
+  color: @color-yellow-dk;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.returnHome{
+  margin-top:20px;
+  margin-bottom: 20px;
+}

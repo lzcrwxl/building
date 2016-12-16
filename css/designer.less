@@ -1,0 +1,316 @@
+//横幅广告
+//基本颜色
+@grey-lg: #CBCBCB;
+@grey-dk: #666;
+@color-title-yellow: #F6F731;
+@color-yellow-dk: #FFF100;
+@font-base-grey: #A2A2A2;
+@font-title-green: #009944;
+a {
+  color: @font-base-grey;
+}
+
+img {
+  max-width: 100%;
+}
+
+.banner-box {
+  position: relative;
+}
+
+.banner-md {
+  width: 50%;
+  margin: auto;
+  height: 80%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  font-size: .8rem;
+}
+
+.profile {
+  img {
+    width: 23%;
+    border-radius: 50%;
+    padding: 2px;
+    background: #fff;
+  }
+}
+
+.address {
+  color: #fff;
+  margin: 30px 0;
+  font-size: .8rem;
+  span {
+    padding: 5px 0 5px 22px;
+    //text-indent: 30px;
+    background: url("../images/designer/design_address.png") no-repeat center left;
+    vertical-align: bottom;
+
+  }
+}
+
+.forcus {
+  font-size: .8rem;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  background: @color-yellow-dk;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  margin: auto;
+}
+
+//主体内容
+.productTitle {
+  .productShow {
+    color: @color-yellow-dk;
+    font-size: 1.6rem;
+    height: 50px;
+    line-height: 50px;
+  }
+  .hr-1 {
+    border-bottom: 2px solid @color-yellow-dk;
+    width: 150px;
+  }
+  .hr-2 {
+    width: 78%;
+    border-bottom: 1px solid @font-base-grey;
+    //color: @font-base-grey;
+  }
+}
+
+.productCtn {
+  margin: 20px 0;
+  .proMainTitle {
+    width: 95%;
+    padding-left: 20px;
+    font-size: 1.2rem;
+    color: @grey-dk;
+    margin: 10px 0;
+  }
+  .contentInfo {
+    width: 95%;
+    padding-left: 20px;
+    font-size: 1rem;
+    line-height: 24px;
+  }
+  .imgShow {
+    margin: 10px 0;
+    img:not(:last-child) {
+      margin: 0 10px;
+    }
+  }
+}
+
+.ctnLf {
+  width: 70%;
+}
+
+.moreStyle {
+  width: 92%;
+}
+
+//评价
+.comments {
+  border: 1px solid @color-yellow-dk;
+  padding: 0 20px;
+  .commentTitle {
+    color: @grey-dk;
+    font-size: 1.2rem;
+    margin: 20px 0;
+  }
+  .commentList {
+    border: 1px solid @color-yellow-dk;
+    li {
+      float: left;
+      width: 25%;
+      text-align: center;
+      padding: 10px 0;
+      color: @grey-dk;
+      .rate {
+        margin-top: -2px;
+      }
+    }
+  }
+  .commentDetail {
+    margin: 20px 0;
+    //border-bottom: 1px solid @color-title-yellow;
+    .commentLf {
+      text-align: center;
+    }
+    .commentRt {
+      width: 91%;
+      .commentRtTitle {
+        line-height: 30px;
+        height: 30px;
+        .rtGoodComment {
+          float: left;
+          padding-left: 30px;
+          background: url("../images/designer/design_face.png") no-repeat center left;
+          color: @color-yellow-dk;
+          font-size: 1rem;
+        }
+        .times {
+          font-size: .8rem;
+        }
+      }
+      .commentRtDetail {
+        margin: 5px 0;
+        font-size: .8rem;
+      }
+      .commentRthouse {
+        color: @grey-lg;
+      }
+    }
+  }
+}
+
+.goodComment {
+  color: @color-yellow-dk;
+}
+
+.commentCount {
+  font-size: 1.2rem;
+}
+
+//分页
+.page {
+  border-top: 1px solid @color-yellow-dk;
+  //height: 80px;
+  .pageItem {
+    //line-height: 40px;
+    text-align: center;
+    li {
+      display: inline-block;
+      .commentCount;
+      padding: 4px 11px;
+      margin: 20px 13px;
+      cursor: pointer;
+      color: @grey-lg;
+    }
+  }
+}
+
+//当前页
+.currentPage {
+  background: @color-yellow-dk;
+  color: #fff !important;
+}
+
+.ctnRt {
+  width: 29%;
+}
+
+.profileInfo {
+  margin-top: 20px;
+  text-align: center;
+  dd {
+    font-size: 1rem;
+    color: @grey-dk;
+  }
+}
+
+.profileBox {
+  font-size: .8rem;
+  padding: 0 20px;
+  line-height: 20px;
+
+  .draftInfo {
+    font-size: 0;
+    //margin: 5px;
+    li {
+      margin: 0;
+      font-size: .8rem;
+      display: inline-block;
+      width: 50%;
+    }
+  }
+  .info {
+    width: 100%;
+    //height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  a {
+    color: @color-yellow-dk;
+  }
+}
+
+.adds-rt {
+  margin-right: 20px;
+}
+
+//店名
+.shopName {
+  font-size: 1.2rem;
+  color: @grey-dk;
+  margin: 10px 10px 20px 10px;
+}
+
+.square {
+  background: url("../images/designer/design-sq.png") no-repeat center center;
+  height: 130px;
+  position: relative;
+  background-size: contain;
+  .case {
+    position: absolute;
+    top: 0;
+    left: 19%;
+    color: @grey-dk;
+    font-size: 1rem;
+  }
+  .description {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    width: 90%;
+    height: 70%;
+    font-size: 1rem;
+    overflow: hidden;
+  }
+}
+
+.mainContent {
+  line-height: 20px;
+  margin: 10px;
+  font-size: 1rem;
+}
+
+.infoMore {
+  margin: 0 20px 0 0;
+  dd {
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin: 5px 0 20px 0;
+  }
+
+}
+
+.infoMoreRt {
+  h1 {
+    font-size: 1.4rem;
+    color: @grey-dk;
+    line-height: 40px;
+  }
+  .detail {
+    li {
+      line-height: 23px;
+      &:hover {
+        text-decoration: none;
+        //cursor: none;
+      }
+      margin: 0;
+    }
+  }
+}
+
+.breadDetail{
+  width: 100%;
+  font-size: .8rem;
+}

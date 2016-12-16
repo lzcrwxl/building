@@ -1,6 +1,24 @@
 //边框颜色基本样式
 @box-border:#FFF667;
-
+@box-border-grey: #CBCBCB;
+@color-title-yellow: #F6F731;
+@color-yellow-dk: #FFF100;
+@font-base-grey: #A2A2A2;
+@font-grey-dk: #666;
+@font-title-green: #009944;
+a{
+  color:#A2A2A2;
+}
+//img{
+//  max-width: 100%;
+//}
+//高亮颜色
+.selectColor{
+  color: @color-yellow-dk;
+}
+.g-inline{
+  display: inline-block;
+}
 //简写样式
 .lf {
   float: left;
@@ -23,7 +41,9 @@ hr{
   width: 92%;
   margin: 0 auto;
 }
-
+* {
+  box-sizing: border-box;
+}
 //头部、底部
 #top, #footer {
   width: 100%;
@@ -113,3 +133,266 @@ hr{
   }
 }
 
+//面包屑导航
+.breadcrumbs {
+  width: 94%;
+  margin: 15px auto;
+  font-size: 1rem;
+}
+
+
+//主题
+.theme{
+  height: 50px;
+  line-height: 50px;
+  width: 70%;
+  margin: 20px auto;
+  position: relative;
+  text-align: center;
+  .textBg{
+    position: absolute;
+    top: -10%;
+    bottom: 0;
+    left: 0;
+    right:0;
+    margin:auto;
+    color:@font-title-green;
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  .styleTitle{
+    //text-align: center;
+  }
+  .textSm{
+    position: absolute;
+    top: 36%;
+    bottom: 0;
+    left: 0;
+    right:0;
+    margin:auto;
+    color:@color-yellow-dk;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+}
+
+//返回首页
+.returnHome{
+  margin: 50px auto;
+  border: 1px solid @color-title-yellow;
+  width: 50%;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 1.6rem;
+  color: @color-yellow-dk;
+}
+.ctnLf {
+  width: 65%;
+
+}
+.ctnRt {
+  width: 30%;
+}
+
+.titleWrapper {
+  border-bottom: 1px solid @font-base-grey;
+  margin-bottom: 10px;
+  position: relative;
+  h2 {
+    height: 40px;
+    line-height: 40px;
+  }
+  .asideBoxTitle {
+    font-size: 1.2rem;
+    color: @color-yellow-dk;
+    border-bottom: 2px solid @color-yellow-dk;
+  }
+}
+//查看更多
+.moreStyle {
+  width: 61%;
+  margin: 20px auto;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  background: #F2F2F2;
+  a {
+    font-size: .8rem;
+    color: @color-yellow-dk;
+  }
+}
+//右侧广告
+.asideBox {
+  border: 1px solid @font-base-grey;
+  min-height: 100px;
+  margin: 20px 0;
+  padding-left: 15px;
+  ul {
+    font-size: 0.8rem;
+    li {
+      margin-top: 5px;
+      margin-bottom: 15px;
+      &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+//论坛
+#topbbs{
+  min-height: 50px;
+  color:#666;
+  .topbbs-info{
+    background: #D9D9D9;
+    height: 30px;
+    line-height: 30px;
+    .topbbs-text{
+      width: 85%;
+      margin: auto;
+      .ctSwitch{
+        cursor: pointer;
+      }
+    }
+  }
+}
+.loginrd{
+  cursor: pointer;
+}
+b.seperate{
+  border-right: 1px solid #666;
+  margin: 0 10px;
+}
+.telphone{
+  color: #FE9B0E;
+}
+.topbbs-logo{
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 20px;
+}
+
+//推荐作品
+.recommandPro{
+  margin: 10px;
+  dl{
+    text-align: left;
+    dd{
+      height: 30px;
+      line-height: 30px;
+      padding-left: 20px;
+    }
+  }
+}
+
+.pages{
+  width: 65%;
+  margin: 0 auto;
+  .totalPages{
+    color: @color-title-yellow;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    .bbsBox{
+      border: 1px solid @box-border-grey;
+      cursor: pointer;
+    }
+    li{
+      float: left;
+      padding: 0 10px;
+      margin-right:10px;
+      &:not([class~='bbsBox']){
+        margin: 0;
+      }
+    }
+
+    .prePage{
+      color: @font-base-grey;
+    }
+    .confirm{
+      color:@font-grey-dk;
+    }
+    .inputNum{
+      margin: 0;
+      input{
+        outline: 0;
+        background: #F2F2F2;
+        width: 20px;
+        height: 20px;
+        border: none;
+        vertical-align: middle;
+      }
+    }
+  }
+}
+
+#lfSideBar {
+  width: 20%;
+  min-height: 50px;
+  border: 1px solid @box-border-grey;
+  padding-left: 3px;
+}
+
+//左侧导航栏
+.subSideLeft {
+  //导航栏标题
+  .subSideTitle {
+    padding: 0 10px 0 8px;
+    height: 36px;
+    line-height: 36px;
+    h1 {
+      float: left;
+      font-size: 1.1rem;
+      color: @color-title-yellow;
+      line-height: 36px;
+    }
+    .titleChange {
+      padding-left: 23px;
+      background: url("../images/titlechange.png") no-repeat center left;
+    }
+  }
+  .subSideList {
+    li {
+      border: 1px solid @box-border-grey;
+      border-left: 0;
+      float: left;
+      width: 25%;
+      text-align: center;
+      height: 30px;
+      line-height: 30px;
+      &:last-child {
+        border-right: 0;
+      }
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    .current {
+      border-top: 2px solid @color-title-yellow;
+      font-weight: bold;
+      color: #333;
+      border-bottom: none;
+    }
+  }
+  .subSideDetail {
+    overflow: hidden;
+    margin-top: 5px;
+    .subDetail-1 {
+      margin: 10px;
+      li {
+        overflow: hidden;
+        margin-bottom: 10px;
+        .subDetail-top {
+          margin-right: 5px;
+        }
+      }
+      li:not(:first-child) {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+}

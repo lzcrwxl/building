@@ -1,3 +1,12 @@
+a {
+  color: #A2A2A2;
+}
+.selectColor {
+  color: #FFF100;
+}
+.g-inline {
+  display: inline-block;
+}
 .lf {
   float: left;
 }
@@ -21,6 +30,9 @@ hr {
 #footer-main {
   width: 92%;
   margin: 0 auto;
+}
+* {
+  box-sizing: border-box;
 }
 #top,
 #footer {
@@ -106,4 +118,240 @@ hr {
 #footer-main a:nth-child(6) {
   padding-left: 20px;
   background: url("../images/logo_bt2.png") no-repeat center left;
+}
+.breadcrumbs {
+  width: 94%;
+  margin: 15px auto;
+  font-size: 1rem;
+}
+.theme {
+  height: 50px;
+  line-height: 50px;
+  width: 70%;
+  margin: 20px auto;
+  position: relative;
+  text-align: center;
+}
+.theme .textBg {
+  position: absolute;
+  top: -10%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  color: #009944;
+  font-size: 1.4rem;
+  text-align: center;
+}
+.theme .textSm {
+  position: absolute;
+  top: 36%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  color: #FFF100;
+  font-size: 0.8rem;
+  text-align: center;
+}
+.returnHome {
+  margin: 50px auto;
+  border: 1px solid #F6F731;
+  width: 50%;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 1.6rem;
+  color: #FFF100;
+}
+.ctnLf {
+  width: 65%;
+}
+.ctnRt {
+  width: 30%;
+}
+.titleWrapper {
+  border-bottom: 1px solid #A2A2A2;
+  margin-bottom: 10px;
+  position: relative;
+}
+.titleWrapper h2 {
+  height: 40px;
+  line-height: 40px;
+}
+.titleWrapper .asideBoxTitle {
+  font-size: 1.2rem;
+  color: #FFF100;
+  border-bottom: 2px solid #FFF100;
+}
+.moreStyle {
+  width: 61%;
+  margin: 20px auto;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  background: #F2F2F2;
+}
+.moreStyle a {
+  font-size: .8rem;
+  color: #FFF100;
+}
+.asideBox {
+  border: 1px solid #A2A2A2;
+  min-height: 100px;
+  margin: 20px 0;
+  padding-left: 15px;
+}
+.asideBox ul {
+  font-size: 0.8rem;
+}
+.asideBox ul li {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+.asideBox ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+#topbbs {
+  min-height: 50px;
+  color: #666;
+}
+#topbbs .topbbs-info {
+  background: #D9D9D9;
+  height: 30px;
+  line-height: 30px;
+}
+#topbbs .topbbs-info .topbbs-text {
+  width: 85%;
+  margin: auto;
+}
+#topbbs .topbbs-info .topbbs-text .ctSwitch {
+  cursor: pointer;
+}
+.loginrd {
+  cursor: pointer;
+}
+b.seperate {
+  border-right: 1px solid #666;
+  margin: 0 10px;
+}
+.telphone {
+  color: #FE9B0E;
+}
+.topbbs-logo {
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 20px;
+}
+.recommandPro {
+  margin: 10px;
+}
+.recommandPro dl {
+  text-align: left;
+}
+.recommandPro dl dd {
+  height: 30px;
+  line-height: 30px;
+  padding-left: 20px;
+}
+.pages {
+  width: 65%;
+  margin: 0 auto;
+}
+.pages .totalPages {
+  color: #F6F731;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+.pages .totalPages .bbsBox {
+  border: 1px solid #CBCBCB;
+  cursor: pointer;
+}
+.pages .totalPages li {
+  float: left;
+  padding: 0 10px;
+  margin-right: 10px;
+}
+.pages .totalPages li:not([class~='bbsBox']) {
+  margin: 0;
+}
+.pages .totalPages .prePage {
+  color: #A2A2A2;
+}
+.pages .totalPages .confirm {
+  color: #666;
+}
+.pages .totalPages .inputNum {
+  margin: 0;
+}
+.pages .totalPages .inputNum input {
+  outline: 0;
+  background: #F2F2F2;
+  width: 20px;
+  height: 20px;
+  border: none;
+  vertical-align: middle;
+}
+#lfSideBar {
+  width: 20%;
+  min-height: 50px;
+  border: 1px solid #CBCBCB;
+  padding-left: 3px;
+}
+.subSideLeft .subSideTitle {
+  padding: 0 10px 0 8px;
+  height: 36px;
+  line-height: 36px;
+}
+.subSideLeft .subSideTitle h1 {
+  float: left;
+  font-size: 1.1rem;
+  color: #F6F731;
+  line-height: 36px;
+}
+.subSideLeft .subSideTitle .titleChange {
+  padding-left: 23px;
+  background: url("../images/titlechange.png") no-repeat center left;
+}
+.subSideLeft .subSideList li {
+  border: 1px solid #CBCBCB;
+  border-left: 0;
+  float: left;
+  width: 25%;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+}
+.subSideLeft .subSideList li:last-child {
+  border-right: 0;
+}
+.subSideLeft .subSideList li:hover {
+  cursor: pointer;
+}
+.subSideLeft .subSideList .current {
+  border-top: 2px solid #F6F731;
+  font-weight: bold;
+  color: #333;
+  border-bottom: none;
+}
+.subSideLeft .subSideDetail {
+  overflow: hidden;
+  margin-top: 5px;
+}
+.subSideLeft .subSideDetail .subDetail-1 {
+  margin: 10px;
+}
+.subSideLeft .subSideDetail .subDetail-1 li {
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.subSideLeft .subSideDetail .subDetail-1 li .subDetail-top {
+  margin-right: 5px;
+}
+.subSideLeft .subSideDetail .subDetail-1 li:not(:first-child) {
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
