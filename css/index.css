@@ -129,7 +129,7 @@ a {
 }
 .nav-box-lf {
   display: inline-block;
-  width: 9%;
+  width: 100px;
   height: 86px;
   background: #FFF100;
   text-align: center;
@@ -157,6 +157,18 @@ a {
 }
 .nav-rt .current a {
   color: #F6F731;
+}
+@media screen and (max-width: 767px) {
+  .nav-rt li {
+    width: 16%!important;
+  }
+  .nav-rt a {
+    font-size: .1rem;
+  }
+  .nav-box-lf {
+    height: 50px;
+    line-height: 50px;
+  }
 }
 .nav-top-box2 {
   border: 1px solid #CBCBCB;
@@ -245,10 +257,10 @@ a {
   margin-top: 5px;
 }
 .subSideList-2 li {
+  border-top: 1px solid #CBCBCB;
   float: left;
   width: 20%;
   text-align: center;
-  border-top: 1px solid #CBCBCB;
   padding: 5px 0;
   cursor: pointer;
 }
@@ -309,6 +321,7 @@ a {
 }
 .linkList {
   border: 1px solid #F6F731;
+  position: relative;
 }
 .linkList .linkListMain {
   width: 92%;
@@ -327,7 +340,10 @@ a {
   font-size: 1rem;
 }
 .linkList .linkListMore {
-  line-height: 1120px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  vertical-align: middle;
   padding-left: 10px;
 }
 .linkList .linkListMore a {
@@ -338,6 +354,7 @@ a {
   border: 1px solid #F6F731;
   min-height: 50px;
   padding-left: 20px;
+  width: 100%;
 }
 .mainLinkCtn .mainLinkList {
   height: 40px;
@@ -345,24 +362,20 @@ a {
   font-size: 1rem;
 }
 .mainLinkCtn .mainLinkList li {
-  margin-right: 7px;
   text-align: left;
   float: left;
-  width: 10%;
 }
 .mainLinkCtn .mainLinkList .mainLinkTitle,
 .mainLinkCtn .mainLinkList .linkMore a {
-  width: 7%;
   color: #009944;
 }
 .mainLinkCtn .mainLinkList .linkMore {
-  margin-right: 10px;
-  float: right;
-  width: 5%;
+  text-align: right;
 }
 .mainbox {
   margin: 20px 0;
   border: 1px solid #F6F731;
+  width: 100%;
 }
 .recommandWebsite {
   margin: 20px 0;
@@ -649,4 +662,17 @@ a {
 }
 #aside ul li a {
   font-size: 0.8rem;
+}
+.mark {
+  background: #F6F731;
+}
+@media screen and (min-width: 768px) {
+  .w10 {
+    width: 10%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .category-wrapper {
+    width: 100%!important;
+  }
 }

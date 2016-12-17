@@ -158,8 +158,9 @@ a {
 //导航栏左侧
 .nav-box-lf {
   display: inline-block;
-  width: 9%;
+  width: 100px;
   height: 86px;
+  line-height: 86px;
   background: #FFF100;
   text-align: center;
   line-height: 86px;
@@ -190,7 +191,18 @@ a {
     color: #F6F731;
   }
 }
-
+@media screen and (max-width: 767px) {
+  .nav-rt{
+    li{
+      width: 16%!important;
+    }
+    a{font-size: .1rem;}
+  }
+  .nav-box-lf{
+    height: 50px;
+    line-height: 50px;
+  }
+}
 .nav-top-box2 {
   border: 1px solid #CBCBCB;
   height: 50px;
@@ -295,10 +307,10 @@ a {
 
 .subSideList-2 {
   li {
+    border-top: 1px solid @box-border-grey;
     float: left;
     width: 20%;
     text-align: center;
-    border-top: 1px solid @box-border-grey;
     padding: 5px 0;
     cursor: pointer;
     b {
@@ -369,6 +381,7 @@ a {
 //链接
 .linkList {
   border: 1px solid @color-title;
+  position: relative;
   .linkListMain {
     width: 92%;
     border-right: 1px solid @color-title;
@@ -386,7 +399,13 @@ a {
     }
   }
   .linkListMore {
-    line-height: 1120px;
+    position: absolute;
+    top:50%;
+    right: 0;
+    //height: 100%;
+    //display: table-cell;
+    vertical-align: middle;
+    //line-height: 1120px;
     padding-left: 10px;
     a {
       color: @font-title;
@@ -399,24 +418,26 @@ a {
   border: 1px solid @color-title;
   min-height: 50px;
   padding-left: 20px;
+  width: 100%;
   .mainLinkList {
     height: 40px;
     line-height: 40px;
     font-size: 1rem;
     li {
-      margin-right: 7px;
+      //width: 10%;
       text-align: left;
       float: left;
-      width: 10%;
+      //width: 10%;
     }
     .mainLinkTitle, .linkMore a {
-      width: 7%;
+      //width: 7%;
       color: @font-title;
     }
     .linkMore {
-      margin-right: 10px;
-      float: right;
-      width: 5%;
+      text-align: right;
+      //margin-right: 10px;
+      //float: right;
+      //width: 5%;
     }
   }
 }
@@ -425,6 +446,7 @@ a {
 .mainbox {
   margin: 20px 0;
   border: 1px solid @color-title;
+  width: 100%;
 }
 
 //推荐网站
@@ -742,5 +764,19 @@ a {
         font-size: 0.8rem;
       }
     }
+  }
+}
+.mark{
+  background: @color-title;
+}
+
+@media screen and (min-width:768px){
+  .w10{
+    width: 10%;
+  }
+}
+@media screen  and (max-width: 767px){
+  .category-wrapper{
+    width: 100%!important;
   }
 }

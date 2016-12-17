@@ -1,5 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>建材装潢首页</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/index.css">
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.min.js"></script>
+  <script src="js/respond.min.js"></script>
+  <![endif]-->
+</head>
 <body>
 <iframe src="header.html" frameborder="0" width="100%" height="46px" scrolling="no"></iframe>
 <!--页面头部-->
@@ -7,13 +21,12 @@
 <!--搜索框-->
 <div id="top-main">
   <div class="search-wrapper">
-    <div class="inner-wrapper ">
+    <div class="inner-wrapper">
       <div class="input-wrapper">
         <input type="text" class="search-input bg-input" placeholder="关键字">
         <a href="#" class="hotword-hook">
           <span>5</span>
         </a>
-
       </div>
       <div class="button-wrapper">
         <input type="button" value="百度一下" class="search-button button">
@@ -45,8 +58,40 @@
 <!--主导航-->
 <hr>
 <nav id="nav">
-  <div class="nav-top">
-    <div class="nav-top-box clear">
+  <div class="nav-top navbar navbar-default">
+    <div class="navbar-header">
+      <div class=" nav-box-lf">
+        上海地区
+      </div>
+      <a href="#menu" data-toggle="collapse" class="navbar-toggle">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+    </div>
+    <div id="menu" class="navbar-collapse collapse">
+      <ul class="nav-rt lf ">
+        <li class="nav-rt-list"><a href="#" class="selectColor">浦东新区装饰</a></li>
+        <li class="nav-rt-list"><a href="#">浦东新区装饰</a></li>
+        <li class="nav-rt-list"><a href="#">浦东新区装饰</a></li>
+        <li class="nav-rt-list"><a href="#">浦东新区装饰</a></li>
+        <li class="nav-rt-list"><a href="#">浦东新区装饰</a></li>
+        <li class="nav-rt-list"><a href="#">浦东新区装饰</a></li>
+        <li class="nav-rt-list"><a href="#">浦东新区装饰</a></li>
+        <li class="nav-rt-list"><a href="#">浦东新区装饰</a></li>
+        <li class="nav-rt-list"><a href="#">浦东新区装饰</a></li>
+        <li class="nav-rt-list"><a href="#">浦东新区装饰</a></li>
+        <li class="nav-rt-list"><a href="#">浦东新区装饰</a></li>
+        <li class="nav-rt-list"><a href="#">浦东新区装饰</a></li>
+        <li class="nav-rt-list"><a href="#">浦东新区装饰</a></li>
+        <li class="nav-rt-list"><a href="#">浦东新区装饰</a></li>
+        <li class="nav-rt-list"><a href="#">浦东新区装饰</a></li>
+        <li class="nav-rt-list"><a href="#">浦东新区装饰</a></li>
+        <li class="nav-rt-list"><a href="#">浦东新区装饰</a></li>
+        <li class="nav-rt-list"><a href="#">浦东新区装饰</a></li>
+      </ul>
+    </div>
+    <!--<div class="nav-top-box clear">
       <div class="nav-box-lf lf">
         上海地区
       </div>
@@ -83,7 +128,7 @@
         <li><a href="#">博维设计</a></li>
         <li><a href="#">博维设计</a></li>
       </ul>
-    </div>
+    </div>-->
   </div>
 </nav>
 <!--主体内容-->
@@ -188,10 +233,10 @@
         </div>
         <div class="subSideMain">
           <ul class="subSideList-2 clear">
-            <li class="current">旅游<b></b></li>
-            <li>查询<b></b></li>
-            <li>汽车<b></b></li>
-            <li>生活<b></b></li>
+            <li class="current">旅游</li>
+            <li>查询</li>
+            <li>汽车</li>
+            <li>生活</li>
             <li>菜谱</li>
           </ul>
           <div class="subSideDetail">
@@ -287,8 +332,8 @@
         <a href="#">馨创进装饰有限公司</a>
         <a href="#">汇轩装饰有限公司</a>
       </div>
-      <div class="linkList clear">
-        <div class="linkListMain clear lf">
+      <ul class="linkList clear">
+        <li class="linkListMain clear lf">
           <ul class="clear">
             <li><a href="#">标筑装饰</a></li>
             <li><a href="#">标筑装饰</a></li>
@@ -513,11 +558,11 @@
             <li><a href="#">标筑装饰</a></li>
             <li><a href="#">标筑装饰</a></li>
           </ul>
-        </div>
-        <div class="linkListMore lf">
+        </li>
+        <li class="linkListMore lf">
           <a href="#">更多&gt;&gt;</a>
-        </div>
-      </div>
+        </li>
+      </ul>
     </div>
     <div class="hotWords">
       <span>热</span>
@@ -527,20 +572,56 @@
       <a href="#">汇轩装饰有限公司</a>
     </div>
   </div>
-  <div class="mainLinkCtn">
-    <ul class="mainLinkList">
-      <li class="mainLinkTitle">瓷砖</li>
-      <li><a href="#">标筑瓷砖</a></li>
-      <li><a href="#">标筑瓷砖</a></li>
-      <li><a href="#">标筑瓷砖</a></li>
-      <li><a href="#">标筑瓷砖</a></li>
-      <li><a href="#">标筑瓷砖</a></li>
-      <li><a href="#">标筑瓷砖</a></li>
-      <li><a href="#">标筑瓷砖</a></li>
-      <li><a href="#">标筑瓷砖</a></li>
-      <li class="linkMore"><a href="#">更多&gt;&gt;</a></li>
+  <div class="mainLinkCtn container">
+    <ul class="mainLinkList row">
+      <li class="col-xs-2 col-md-2 mainLinkTitle w10">瓷砖</li>
+      <li class="col-xs-2 col-md-1 w10"><a href="#">标筑瓷砖</a></li>
+      <li class="col-xs-2 col-md-1 w10"><a href="#">标筑瓷砖</a></li>
+      <li class="col-xs-2 col-md-1 w10"><a href="#">标筑瓷砖</a></li>
+      <li class="col-xs-2 col-md-1 w10"><a href="#">标筑瓷砖</a></li>
+      <li class="col-xs-2 col-md-1 w10"><a href="#">标筑瓷砖</a></li>
+      <li class="col-xs-2 col-md-1 w10"><a href="#">标筑瓷砖</a></li>
+      <li class="col-xs-2 col-md-1 w10"><a href="#">标筑瓷砖</a></li>
+      <li class="col-xs-2 col-md-1 w10"><a href="#">标筑瓷砖</a></li>
+      <li class="linkMore col-xs-6 col-md-2 w10"><a href="#">更多&gt;&gt;</a></li>
     </ul>
-    <ul class="mainLinkList">
+    <ul class="mainLinkList row">
+      <li class="col-xs-2 col-md-2 mainLinkTitle w10">瓷砖</li>
+      <li class="col-xs-2 col-md-1 w10"><a href="#">标筑瓷砖</a></li>
+      <li class="col-xs-2 col-md-1 w10"><a href="#">标筑瓷砖</a></li>
+      <li class="col-xs-2 col-md-1 w10"><a href="#">标筑瓷砖</a></li>
+      <li class="col-xs-2 col-md-1 w10"><a href="#">标筑瓷砖</a></li>
+      <li class="col-xs-2 col-md-1 w10"><a href="#">标筑瓷砖</a></li>
+      <li class="col-xs-2 col-md-1 w10"><a href="#">标筑瓷砖</a></li>
+      <li class="col-xs-2 col-md-1 w10"><a href="#">标筑瓷砖</a></li>
+      <li class="col-xs-2 col-md-1 w10"><a href="#">标筑瓷砖</a></li>
+      <li class="linkMore col-xs-6 col-md-2 w10"><a href="#">更多&gt;&gt;</a></li>
+    </ul>
+    <ul class="mainLinkList row">
+      <li class="col-xs-2 col-md-2 mainLinkTitle w10">瓷砖</li>
+      <li class="col-xs-2 col-md-1 w10"><a href="#">标筑瓷砖</a></li>
+      <li class="col-xs-2 col-md-1 w10"><a href="#">标筑瓷砖</a></li>
+      <li class="col-xs-2 col-md-1 w10"><a href="#">标筑瓷砖</a></li>
+      <li class="col-xs-2 col-md-1 w10"><a href="#">标筑瓷砖</a></li>
+      <li class="col-xs-2 col-md-1 w10"><a href="#">标筑瓷砖</a></li>
+      <li class="col-xs-2 col-md-1 w10"><a href="#">标筑瓷砖</a></li>
+      <li class="col-xs-2 col-md-1 w10"><a href="#">标筑瓷砖</a></li>
+      <li class="col-xs-2 col-md-1 w10"><a href="#">标筑瓷砖</a></li>
+      <li class="linkMore col-xs-6 col-md-2 w10"><a href="#">更多&gt;&gt;</a></li>
+    </ul>
+    <ul class="mainLinkList row">
+      <li class="col-xs-2 col-md-2 mainLinkTitle w10">瓷砖</li>
+      <li class="col-xs-2 col-md-1 w10"><a href="#">标筑瓷砖</a></li>
+      <li class="col-xs-2 col-md-1 w10"><a href="#">标筑瓷砖</a></li>
+      <li class="col-xs-2 col-md-1 w10"><a href="#">标筑瓷砖</a></li>
+      <li class="col-xs-2 col-md-1 w10"><a href="#">标筑瓷砖</a></li>
+      <li class="col-xs-2 col-md-1 w10"><a href="#">标筑瓷砖</a></li>
+      <li class="col-xs-2 col-md-1 w10"><a href="#">标筑瓷砖</a></li>
+      <li class="col-xs-2 col-md-1 w10"><a href="#">标筑瓷砖</a></li>
+      <li class="col-xs-2 col-md-1 w10"><a href="#">标筑瓷砖</a></li>
+      <li class="linkMore col-xs-6 col-md-2 w10"><a href="#">更多&gt;&gt;</a></li>
+    </ul>
+    <!--<ul class="mainLinkList">
       <li class="mainLinkTitle">地板</li>
       <li><a href="#">东易日盛集团</a></li>
       <li><a href="#">东易日盛集团</a></li>
@@ -611,9 +692,9 @@
       <li><a href="#">标筑装饰</a></li>
       <li><a href="#">标筑装饰</a></li>
       <li class="linkMore"><a href="#">更多&gt;&gt;</a></li>
-    </ul>
+    </ul>-->
   </div>
-  <div class="recommandWebsite">
+  <div class="recommandWebsite hidden-xs">
     <div class="recommandTitle clear">
       <ul class="clear navlist">
         <li>推荐网站<b></b></li>
@@ -743,132 +824,134 @@
       </div>
     </div>
   </div>
-  <div class="categories mainbox clear">
-    <div class="content-lf lf category-wrapper clear"
-         style="background: url('images/icon-service_64.png') no-repeat 15px 20px;">
-      <ul>
-        <li class="listTitle">生活服务</li>
-      </ul>
-      <ul class="category-list">
-        <li class="listTitle">购物</li>
-        <li><a href="#">快递</a></li>
-        <li><a href="#">海淘</a></li>
-        <li><a href="#">天猫</a></li>
-        <li><a href="#">彩票</a></li>
-      </ul>
-      <ul class="category-list">
-        <li class="listTitle">理财</li>
-        <li><a href="#">P2P</a></li>
-        <li><a href="#">股票</a></li>
-        <li><a href="#">基金</a></li>
-        <li><a href="#">保险</a></li>
-      </ul>
-      <ul class="category-list">
-        <li class="listTitle">银行</li>
-        <li><a href="#">贷款</a></li>
-        <li><a href="#">信用卡</a></li>
-        <li><a href="#">房产</a></li>
-        <li><a href="#">生活</a></li>
-      </ul>
-      <ul class="category-list">
-        <li class="listTitle">汽车</li>
-        <li><a href="#">二手车</a></li>
-        <li><a href="#">违章</a></li>
-        <li><a href="#">地图</a></li>
-        <li><a href="#">查询</a></li>
-      </ul>
-      <ul class="category-list">
-        <li class="listTitle">旅游</li>
-        <li><a href="#">酒店</a></li>
-        <li><a href="#">景点</a></li>
-        <li><a href="#">机票</a></li>
-        <li><a href="#">火车票</a></li>
-      </ul>
-    </div>
-    <div class="content-md lf category-wrapper clear"
-         style="background: url('images/icon-ohter_70.png') no-repeat 15px 20px;">
-      <ul>
-        <li class="listTitle">休闲娱乐</li>
-      </ul>
-      <ul class="category-list">
-        <li class="listTitle">新闻</li>
-        <li><a href="#">天气</a></li>
-        <li><a href="#">军事</a></li>
-        <li><a href="#">体育</a></li>
-        <li><a href="#">NBA</a></li>
-      </ul>
-      <ul class="category-list">
-        <li class="listTitle">游戏</li>
-        <li><a href="#">音乐</a></li>
-        <li><a href="#">小说</a></li>
-        <li><a href="#">漫画</a></li>
-        <li><a href="#">小游戏</a></li>
-      </ul>
-      <ul class="category-list">
-        <li class="listTitle">视频</li>
-        <li><a href="#">电影</a></li>
-        <li><a href="#">电视剧</a></li>
-        <li><a href="#">综艺</a></li>
-        <li><a href="#">动漫</a></li>
-      </ul>
-      <ul class="category-list">
-        <li class="listTitle">娱乐</li>
-        <li><a href="#">直播</a></li>
-        <li><a href="#">笑话</a></li>
-        <li><a href="#">解梦</a></li>
-        <li><a href="#">星座</a></li>
-      </ul>
-      <ul class="category-list">
-        <li class="listTitle">女性</li>
-        <li><a href="#">儿童</a></li>
-        <li><a href="#">母婴</a></li>
-        <li><a href="#">健康</a></li>
-        <li><a href="#">减肥</a></li>
-      </ul>
-    </div>
-    <div class="content-rt lf category-wrapper clear"
-         style="background: url('images/icon-ohter_67.png') no-repeat 15px 20px;">
-      <ul>
-        <li class="listTitle">其他分类</li>
-      </ul>
-      <ul class="category-list">
-        <li class="listTitle">教育</li>
-        <li><a href="#">大学</a></li>
-        <li><a href="#">留学</a></li>
-        <li><a href="#">翻译</a></li>
-        <li><a href="#">急转弯</a></li>
-      </ul>
-      <ul class="category-list">
-        <li class="listTitle">电脑</li>
-        <li><a href="#">手机</a></li>
-        <li><a href="#">软件</a></li>
-        <li><a href="#">摄影</a></li>
-        <li><a href="#">壁纸</a></li>
-      </ul>
-      <ul class="category-list">
-        <li class="listTitle">爱好</li>
-        <li><a href="#">菜谱</a></li>
-        <li><a href="#">琴棋</a></li>
-        <li><a href="#">曲艺</a></li>
-        <li><a href="#">发现</a></li>
-      </ul>
-      <ul class="category-list">
-        <li class="listTitle">行业</li>
-        <li><a href="#">邮箱</a></li>
-        <li><a href="#">论坛</a></li>
-        <li><a href="#">交友</a></li>
-        <li><a href="#">招聘</a></li>
-      </ul>
-      <ul class="category-list">
-        <li class="listTitle">政府</li>
-        <li><a href="#">法律</a></li>
-        <li><a href="#">历史</a></li>
-        <li><a href="#">综艺</a></li>
-        <li><a href="#">地方</a></li>
-      </ul>
+  <div class="categories mainbox clear container">
+    <div class="row">
+      <div class=" col-xs-12 col-md-4  content-lf lf category-wrapper clear"
+           style="background: url('images/icon-service_64.png') no-repeat 15px 20px;">
+        <ul>
+          <li class="listTitle">生活服务</li>
+        </ul>
+        <ul class="category-list">
+          <li class="listTitle">购物</li>
+          <li><a href="#">快递</a></li>
+          <li><a href="#">海淘</a></li>
+          <li><a href="#">天猫</a></li>
+          <li><a href="#">彩票</a></li>
+        </ul>
+        <ul class="category-list">
+          <li class="listTitle">理财</li>
+          <li><a href="#">P2P</a></li>
+          <li><a href="#">股票</a></li>
+          <li><a href="#">基金</a></li>
+          <li><a href="#">保险</a></li>
+        </ul>
+        <ul class="category-list">
+          <li class="listTitle">银行</li>
+          <li><a href="#">贷款</a></li>
+          <li><a href="#">信用卡</a></li>
+          <li><a href="#">房产</a></li>
+          <li><a href="#">生活</a></li>
+        </ul>
+        <ul class="category-list">
+          <li class="listTitle">汽车</li>
+          <li><a href="#">二手车</a></li>
+          <li><a href="#">违章</a></li>
+          <li><a href="#">地图</a></li>
+          <li><a href="#">查询</a></li>
+        </ul>
+        <ul class="category-list">
+          <li class="listTitle">旅游</li>
+          <li><a href="#">酒店</a></li>
+          <li><a href="#">景点</a></li>
+          <li><a href="#">机票</a></li>
+          <li><a href="#">火车票</a></li>
+        </ul>
+      </div>
+      <div class=" col-xs-12 col-md-4  content-md lf category-wrapper clear"
+           style="background: url('images/icon-ohter_70.png') no-repeat 15px 20px;">
+        <ul>
+          <li class="listTitle">休闲娱乐</li>
+        </ul>
+        <ul class="category-list">
+          <li class="listTitle">新闻</li>
+          <li><a href="#">天气</a></li>
+          <li><a href="#">军事</a></li>
+          <li><a href="#">体育</a></li>
+          <li><a href="#">NBA</a></li>
+        </ul>
+        <ul class="category-list">
+          <li class="listTitle">游戏</li>
+          <li><a href="#">音乐</a></li>
+          <li><a href="#">小说</a></li>
+          <li><a href="#">漫画</a></li>
+          <li><a href="#">小游戏</a></li>
+        </ul>
+        <ul class="category-list">
+          <li class="listTitle">视频</li>
+          <li><a href="#">电影</a></li>
+          <li><a href="#">电视剧</a></li>
+          <li><a href="#">综艺</a></li>
+          <li><a href="#">动漫</a></li>
+        </ul>
+        <ul class="category-list">
+          <li class="listTitle">娱乐</li>
+          <li><a href="#">直播</a></li>
+          <li><a href="#">笑话</a></li>
+          <li><a href="#">解梦</a></li>
+          <li><a href="#">星座</a></li>
+        </ul>
+        <ul class="category-list">
+          <li class="listTitle">女性</li>
+          <li><a href="#">儿童</a></li>
+          <li><a href="#">母婴</a></li>
+          <li><a href="#">健康</a></li>
+          <li><a href="#">减肥</a></li>
+        </ul>
+      </div>
+      <div class=" col-xs-12 col-md-4  content-rt lf category-wrapper clear"
+           style="background: url('images/icon-ohter_67.png') no-repeat 15px 20px;">
+        <ul>
+          <li class="listTitle">其他分类</li>
+        </ul>
+        <ul class="category-list">
+          <li class="listTitle">教育</li>
+          <li><a href="#">大学</a></li>
+          <li><a href="#">留学</a></li>
+          <li><a href="#">翻译</a></li>
+          <li><a href="#">急转弯</a></li>
+        </ul>
+        <ul class="category-list">
+          <li class="listTitle">电脑</li>
+          <li><a href="#">手机</a></li>
+          <li><a href="#">软件</a></li>
+          <li><a href="#">摄影</a></li>
+          <li><a href="#">壁纸</a></li>
+        </ul>
+        <ul class="category-list">
+          <li class="listTitle">爱好</li>
+          <li><a href="#">菜谱</a></li>
+          <li><a href="#">琴棋</a></li>
+          <li><a href="#">曲艺</a></li>
+          <li><a href="#">发现</a></li>
+        </ul>
+        <ul class="category-list">
+          <li class="listTitle">行业</li>
+          <li><a href="#">邮箱</a></li>
+          <li><a href="#">论坛</a></li>
+          <li><a href="#">交友</a></li>
+          <li><a href="#">招聘</a></li>
+        </ul>
+        <ul class="category-list">
+          <li class="listTitle">政府</li>
+          <li><a href="#">法律</a></li>
+          <li><a href="#">历史</a></li>
+          <li><a href="#">综艺</a></li>
+          <li><a href="#">地方</a></li>
+        </ul>
+      </div>
     </div>
   </div>
-  <div class="mainbox clear buy">
+  <div class="mainbox clear hidden-xs buy">
     <div class="titlebuy">
       实惠购物
       <ul class="navlist">
@@ -927,7 +1010,7 @@
       </div>
     </div>
   </div>
-  <div class="mainbox clear game">
+  <div class="mainbox clear hidden-xs game">
     <div class="gameTitle">
       <span class="lf playgame">玩游戏</span>
       <ul class="gameList">
@@ -1069,7 +1152,7 @@
       </div>
     </div>
   </div>
-  <div class="mainbox clear live">
+  <div class="mainbox clear hidden-xs live">
     <div class="liveTitle">
       <span class="hjLive">花椒直播</span>
       <ul class="navlist">
@@ -1110,28 +1193,45 @@
     <li><a href="#">购物</a></li>
     <li><a href="#">笑话</a></li>
     <li><a href="#">头条新闻</a></li>
-    <li><a href="#">在线留言</a></li>
+    <li class="mark"><a href="#">在线留言</a></li>
+    <li class="mark"><a href="#">申请入驻</a></li>
     <li><a href="#">返回顶部</a></li>
   </ul>
 </aside>
 <!--页面底部-->
 <iframe src="footer.html" frameborder="0" width="100%" height="46px" scrolling="no"></iframe>
 
+
+<!--模态框-->
+<div style="display:none" class="module">
+  <ul>
+    <li>
+      <h3 class="dib">姓名</h3>
+      <input class="rgba6" type="text">
+    </li>
+    <li>
+      <h3 class="dib">联系方式</h3>
+      <input class="rgba6" type="text">
+    </li>
+    <li>
+      <h3 class="dib">公司名称</h3>
+      <input class="rgba6" type="text">
+    </li>
+    <li>
+      <h3 class="dib leaveMsg">留言</h3>
+      <div class="dib">
+        <div>
+          <textarea name="" id="" cols="30" rows="10" class="rgba6"></textarea>
+        </div>
+        <div class="btnSub">
+          <span class="rgba6 selectColor dib">提交</span>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
 </body>
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>建材装潢首页</title>
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/common.css">
-  <link rel="stylesheet" href="css/index.css">
-  <!--[if lt IE 9]>
-  <script src="js/html5shiv.min.js"></script>
-  <script src="js/respond.min.js"></script>
-  <![endif]-->
-</head>
+
 <script src="frameworks/jquery-1.11.3.js"></script>
 <script src="frameworks/bootstrap.min.js"></script>
 <script src="frameworks/bootlint.js"></script>

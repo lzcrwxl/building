@@ -8,7 +8,9 @@
 a {
   color: @font-base-grey;
 }
-
+img{
+  max-width:100%;
+}
 
 
 #top-main {
@@ -57,7 +59,7 @@ a {
   margin-top: 5px;
   font-size: 0;
   .showbox{
-    width: 33%;
+    //width: 33%;
     margin: 5px 2px;
   }
   .mainCtn {
@@ -81,7 +83,7 @@ a {
     }
     .ctnrt{
       font-size: 1rem;
-      margin-left: 40px;
+      margin-left: 30px;
       vertical-align: 11px;
       text-align: right;
       .price{
@@ -104,4 +106,15 @@ a {
 .returnHome{
   margin-top:20px;
   margin-bottom: 20px;
+}
+@media screen and (max-width: 767px){
+  .salesNavList{
+    li{
+      font-size: 1rem!important;
+    }
+  }
+  .ctnlf{
+    width: 100%!important;
+    margin-bottom: 10px;
+  }
 }

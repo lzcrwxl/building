@@ -64,36 +64,7 @@ img {
     display: inline-block;
     font-size: .8rem;
   }
-  .topicTitle {
-    width: 40%;
-    font-size: 1rem;
-    a {
-      color: #666;
-    }
-  }
-  .topicName {
-    width: 12%;
-    color: #666;
-  }
-  .topicTime {
-    color: #666;
-    width: 14%;
-  }
-  .topicShare {
-    width: 12%;
-    padding-left: 23px;
-    background: url("../images/bbs/diz_share.png") no-repeat center left;
-  }
-  .topicComments {
-    width: 12%;
-    padding-left: 26px;
-    background: url("../images/bbs/diz_comm.png") no-repeat center left;
-  }
-  .topicLikes {
-    width: 7%;
-    padding-left: 23px;
-    background: url("../images/bbs/diz_heart_empty.png") no-repeat center left;
-  }
+
 }
 
 .moreStyle {
@@ -101,7 +72,7 @@ img {
 }
 
 .returnHome {
-  width: 80%;
+  width: 60%;
 }
 
 //右侧
@@ -383,37 +354,44 @@ img {
   border-top: 1px solid @grey-lg;
   padding: 5px 10px;
 }
-
+.bbsInput{
+  text-align: left;
+  width: 60%;
+  background:@input-grey;
+  padding: 0 10px;
+}
+.bbsInputBoxBg{
+  margin-left: -40px;
+  margin-bottom: 20px;
+  height: 36px;
+  line-height: 36px;
+}
 //发帖
 .formMain{
-  width: 80%;
+  width: 90%;
   margin: 10px auto;
   text-indent: 40px;
   .bbsInputBox{
     height: 36px;
     line-height: 36px;
     margin-bottom: 20px;
-    .bbsInput{
-      width: 60%;
-      background:@input-grey;
-      padding: 0 10px;
-    }
+
   }
   .returnHome{
     width: 60%;
   }
 }
 .bbsInputTitle{
-  display: inline-block;
-  width: 9%;
-  text-align: left;
+  //display: inline-block;
+  margin-bottom: 20px;
+  text-align: right;
 }
 .bbsBorder{
   border: 1px solid @color-title-yellow;
 }
 .bbsinputMain{
-  display: inline-block;
-  width: 80%;
+  //display: inline-block;
+  width: 90%;
   .inputBar{
     height: 36px;
     line-height: 36px;
@@ -440,6 +418,7 @@ img {
     width: 100%;
     background:@input-grey;
     padding: 10px;
+    resize: none;
   }
 }
 .bbsBottom{
@@ -472,5 +451,63 @@ img {
       color: #fff;
       background: @color-yellow-dk;
     }
+  }
+}
+
+.topicTitle {
+  width: 40%;
+  font-size: 1rem;
+  a {
+    color: #666;
+  }
+}
+.topicName {
+  width: 12%;
+  color: #666;
+}
+.topicTime {
+  color: #666;
+  width: 14%;
+}
+.topicShare {
+  width: 12%;
+  padding-left: 23px;
+  background: url("../images/bbs/diz_share.png") no-repeat center left;
+}
+.topicComments {
+  width: 12%;
+  padding-left: 26px;
+  background: url("../images/bbs/diz_comm.png") no-repeat center left;
+}
+.topicLikes {
+  width: 7%;
+  padding-left: 23px;
+  background: url("../images/bbs/diz_heart_empty.png") no-repeat center left;
+}
+@media screen and(max-width: 767px){
+  .ctnLf{
+    width: 100%;
+  }
+  .topicTitle{
+    width: 35%;
+    font-size: .8rem;
+  }
+  .topicName{
+    width:14%;
+  }
+  .topicTime{
+    width:15%;
+  }
+  .topicShare{
+    width:12%;
+  }
+  .topicComments{
+    width:12%;
+  }
+  .topicLikes{
+    width:5%;
+  }
+  .bbsTitle .hisTopic{
+    width:16%;
   }
 }

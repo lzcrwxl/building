@@ -2,7 +2,7 @@ a {
   color: #A2A2A2;
 }
 .selectColor {
-  color: #FFF100;
+  color: #FFF100 !important;
 }
 .g-inline {
   display: inline-block;
@@ -354,4 +354,66 @@ b.seperate {
 .subSideLeft .subSideDetail .subDetail-1 li:not(:first-child) {
   white-space: nowrap;
   text-overflow: ellipsis;
+}
+.module {
+  position: fixed;
+  top: 10%;
+  left: 33%;
+  width: 34%;
+  height: 70%;
+  font-size: 1rem;
+  background: #000;
+  opacity: .6;
+  color: #fff;
+  padding: 80px 50px;
+}
+.module h3 {
+  width: 20%;
+  position: relative;
+  margin: 14px 0;
+  height: 30px;
+}
+.module input {
+  outline: 0;
+  border-width: 1px;
+  color: #fff;
+  text-indent: 10px;
+  height: 30px;
+  line-height: 30px;
+  width: 50%;
+}
+.module textarea {
+  padding: 10px;
+  height: 100px;
+}
+.module .btnSub {
+  margin: 5px 0;
+  text-align: center;
+}
+.module .btnSub span {
+  text-align: center;
+  width: 80px;
+  height: 40px;
+  line-height: 40px;
+  cursor: pointer;
+  border: 1px solid #fff;
+}
+.dib {
+  display: inline-block;
+}
+.rgba6 {
+  background: rgba(0, 0, 0, 0.6);
+}
+.leaveMsg {
+  vertical-align: top;
+}
+@media screen and (max-width: 767px) {
+  .textBg {
+    top: -20% !important;
+    font-size: 1rem!important;
+  }
+  .textSm {
+    top: 5%!important;
+    font-size: .1rem!important;
+  }
 }
