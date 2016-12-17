@@ -1,0 +1,39 @@
+a {
+  color: #A2A2A2;
+}
+img {
+  max-width: 100%;
+}
+#top-main {
+  padding: 20px 0;
+}
+#top-main img {
+  margin-left: 25px;
+}
+.cizhuanlf {
+  margin-right: 20px;
+}
+.cizhuanrt {
+  width: 60%;
+}
+.cizhuanrt li {
+  margin: 5px 0;
+}
+.productapply p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.productapply img {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+.productTitle {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #666;
+}
+.hotSearch li {
+  margin: 5px!important;
+}

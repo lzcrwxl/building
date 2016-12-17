@@ -1,0 +1,103 @@
+a {
+  color: #A2A2A2;
+}
+img {
+  max-width: 100%;
+}
+#top-main {
+  border-bottom: 1px solid #F6F731;
+}
+#top-main .shoppingTitle {
+  width: 15%;
+  color: #009944;
+  font-size: 1.3rem;
+  text-align: center;
+  vertical-align: middle;
+}
+#top-main img {
+  margin-right: 50px;
+  vertical-align: middle;
+}
+#nav {
+  margin-top: 20px;
+}
+.salesNav {
+  border: 1px solid #F6F731;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+.salesNav .salesNavList {
+  font-size: 0;
+}
+.salesNav .salesNavList li {
+  font-size: 1.4rem;
+  color: #666;
+  float: left;
+  width: 14.286%;
+  cursor: pointer;
+}
+.current {
+  background: #FFF100;
+  color: #fff !important;
+}
+.salesNavMain {
+  margin-top: 5px;
+  font-size: 0;
+}
+.salesNavMain .showbox {
+  margin: 5px 2px;
+}
+.salesNavMain .mainCtn {
+  vertical-align: middle;
+  font-size: 1rem;
+  display: block;
+  min-height: 50px;
+  border: 1px solid #F6F731;
+  border-top: none;
+  margin: 0 2px;
+  padding: 20px 20px;
+}
+.salesNavMain .mainCtn .ctnlf {
+  width: 60%;
+}
+.salesNavMain .mainCtn .ctnlf .describe {
+  margin-bottom: 5px;
+}
+.salesNavMain .mainCtn .ctnlf .detail {
+  font-size: 0.8rem;
+  padding-left: 5px;
+}
+.salesNavMain .mainCtn .ctnrt {
+  font-size: 1rem;
+  margin-left: 30px;
+  vertical-align: 11px;
+  text-align: right;
+}
+.salesNavMain .mainCtn .ctnrt .price {
+  color: #FFF100;
+}
+.more {
+  border: 1px solid #F6F731;
+  height: 50px;
+  line-height: 50px;
+  width: 60%;
+  margin: 5px auto;
+  text-align: center;
+  color: #FFF100;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.returnHome {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 767px) {
+  .salesNavList li {
+    font-size: 1rem!important;
+  }
+  .ctnlf {
+    width: 100%!important;
+    margin-bottom: 10px;
+  }
+}

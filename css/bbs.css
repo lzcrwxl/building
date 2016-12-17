@@ -1,0 +1,458 @@
+a {
+  color: #A2A2A2;
+}
+body {
+  font-size: .8rem;
+}
+img {
+  max-width: 100%;
+}
+.bbsbread {
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  font-size: .8rem;
+}
+.hotTitle {
+  position: relative;
+  padding: 0 20px;
+  vertical-align: middle;
+  border-bottom: 1px solid #F6F731;
+  font-size: 1rem;
+}
+.hotTitle .issueTopic {
+  border: 1px solid #F6F731;
+  margin: 10px 0;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+.hotTitle .topic {
+  position: absolute;
+  top: 34%;
+}
+.topicColor {
+  color: #F6F731;
+}
+.seperate {
+  border-right: 2px solid #CBCBCB !important;
+}
+.topicList {
+  background: #F2F2F2;
+  height: 46px;
+  line-height: 46px;
+  margin-top: 8px;
+  margin-bottom: 10px;
+  padding: 0 20px;
+}
+.topicList li {
+  display: inline-block;
+  font-size: .8rem;
+}
+.moreStyle {
+  width: 100%;
+}
+.returnHome {
+  width: 60%;
+}
+.ctnRt {
+  width: 33%;
+}
+.asideBox {
+  padding: 0 15px;
+}
+.asideBox .forcus {
+  font-size: 0;
+}
+.asideBox .forcus .btnHalf {
+  width: 50%;
+  text-align: center;
+}
+.asideBox .forcus .btnHalf .btnForcus {
+  cursor: pointer;
+  font-size: .8rem;
+  width: 90%;
+  line-height: 30px;
+  display: inline-block;
+  margin: 10px 0;
+  border: 1px solid #CBCBCB;
+  min-height: 50px;
+}
+.asideBox .forcus .btnHalf .btnForcus .plusForcus {
+  vertical-align: middle;
+  padding: 20px 0;
+  padding-left: 30px;
+}
+.asideBox .forcus .btnHalf .btnForcus .bbsdetailBtn {
+  margin-top: -10px;
+}
+.asideBox .addImg {
+  text-align: center;
+}
+.bbsTitle {
+  height: 46px;
+  line-height: 46px;
+  padding-left: 25px;
+}
+.bbsTitle li {
+  float: left;
+  width: 12%;
+}
+.hisTopic {
+  font-size: 1.2rem;
+  color: #F6F731;
+}
+.topicBox {
+  border: 1px solid #F6F731;
+  min-height: 50px;
+  margin-bottom: 20px;
+}
+.TopicBar {
+  height: 46px;
+  line-height: 46px;
+  padding-left: 25px;
+  background: #F2F2F2;
+}
+.TopicBar li {
+  float: left;
+  width: 12%;
+}
+.TopicBar li {
+  font-size: 1rem;
+  color: #666;
+}
+.TopicLfName {
+  width: 65% !important;
+}
+.TopicLfTime {
+  width: 35% !important;
+}
+.TopicMain {
+  padding-left: 25px;
+  font-size: 0;
+  margin: 15px 0 20px 0;
+}
+.TopicMain li {
+  font-size: .8rem;
+  float: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.bbsTitleName {
+  font-size: 1rem;
+  color: #666;
+}
+.bbsCtn {
+  padding: 0 20px 25px 30px;
+}
+.bbsCtn p.bbsMainCtn {
+  margin-top: 5px;
+  line-height: 30px;
+}
+.notes {
+  height: 60px;
+  line-height: 60px;
+}
+.bottomTopic .thumbs {
+  cursor: pointer;
+}
+.profileInfo {
+  margin: 10px auto;
+}
+.profileInfo dl {
+  margin-left: 35%;
+  margin-bottom: 20px;
+}
+.profileInfo dl dd {
+  line-height: 22px;
+  font-size: .8rem;
+}
+.profileInfo dl .name {
+  font-size: 1.2rem;
+  margin-left: 33px;
+}
+.topTitle {
+  height: 50px;
+  width: 50%;
+  height: 80px;
+  background: #F6F731;
+  font-size: 1.2rem;
+  color: #fff;
+  text-align: center;
+  line-height: 80px;
+  margin: 20px auto;
+}
+.tips {
+  width: 90%;
+  margin: 10px auto;
+  height: 28px;
+  line-height: 28px;
+  font-size: 1.2rem;
+}
+.tips .boxTitle {
+  font-size: .8rem;
+  cursor: pointer;
+  margin-left: 10px;
+  padding: 0 30px;
+}
+.bbsBox {
+  border: 2px solid #C8C8C8;
+  background: #F2F2F2;
+}
+/*.pages{
+  width: 65%;
+  margin: 0 auto;
+  .totalPages{
+    color: @color-title-yellow;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    .bbsBox{
+      border: 1px solid @box-border-grey;
+      cursor: pointer;
+    }
+    li{
+      float: left;
+      padding: 0 10px;
+
+      margin-right:10px;
+    }
+    .prePage{
+      color: @font-base-grey;
+    }
+    .confirm{
+      color:@font-grey-dk;
+    }
+    .inputNum{
+      input{
+        outline: 0;
+        background: #F2F2F2;
+        width: 20px;
+        height: 20px;
+        border: none;
+        vertical-align: middle;
+      }
+    }
+  }
+}*/
+.msgDetail {
+  border: 1px solid #CBCBCB;
+  min-height: 50px;
+  color: #666;
+  padding: 10px 20px 0 10px;
+}
+.msgDetail .bbsInnerBox {
+  margin-left: 80px;
+  border-top: 1px solid #A2A2A2;
+  min-height: 50px;
+}
+.bbsBottomInfo {
+  color: #A2A2A2;
+  font-size: .6rem;
+  height: 50px;
+  line-height: 50px;
+}
+.bbsBottomInfo b {
+  margin: 0 3px;
+}
+.bottomMidInfo {
+  margin: 20px 0 10px 0;
+  text-align: center;
+}
+.innerTitle {
+  height: 30px;
+  line-height: 30px;
+}
+.innerMain {
+  border-bottom: 1px dotted #A2A2A2;
+  height: 30px;
+  line-height: 30px;
+  font-size: .8rem;
+}
+.bbsInnerBottom {
+  vertical-align: middle;
+}
+.bbsInnerBottom .remainComments {
+  margin-right: 20px;
+}
+.bbsInnerBottom .btnComments {
+  border: 1px solid #C8C8C8;
+  margin: 0 10px;
+  cursor: pointer;
+  height: 30px;
+  vertical-align: middle;
+  padding: 0 20px;
+}
+.bbsInnerBottom .bbsInnerRt {
+  margin: 10px 0;
+  line-height: 30px;
+  height: 30px;
+}
+.pageBottom {
+  display: table-cell;
+  vertical-align: bottom;
+  margin: 20px;
+  width: 80%;
+}
+#lfSideBar {
+  width: 100%;
+  border: 1px solid #CBCBCB;
+  padding-left: 3px;
+}
+.bbsAdds {
+  width: 50%;
+  padding: 0 5px;
+  margin-bottom: 10px;
+}
+.hotSearch {
+  border-top: 1px solid #CBCBCB;
+  padding: 5px 10px;
+}
+.bbsInput {
+  text-align: left;
+  width: 60%;
+  background: #FAFAFA;
+  padding: 0 10px;
+}
+.bbsInputBoxBg {
+  margin-left: -40px;
+  margin-bottom: 20px;
+  height: 36px;
+  line-height: 36px;
+}
+.formMain {
+  width: 90%;
+  margin: 10px auto;
+  text-indent: 40px;
+}
+.formMain .bbsInputBox {
+  height: 36px;
+  line-height: 36px;
+  margin-bottom: 20px;
+}
+.formMain .returnHome {
+  width: 60%;
+}
+.bbsInputTitle {
+  margin-bottom: 20px;
+  text-align: right;
+}
+.bbsBorder {
+  border: 1px solid #F6F731;
+}
+.bbsinputMain {
+  width: 90%;
+}
+.bbsinputMain .inputBar {
+  height: 36px;
+  line-height: 36px;
+}
+.bbsinputMain .inputBar .inputIcon {
+  padding: 25px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.bbsinputMain .inputBar .frends {
+  margin-left: -30px;
+  background: url("../images/bbs/bbs-@.png") no-repeat center left;
+}
+.bbsinputMain .inputBar .pic {
+  background: url("../images/bbs/bbs-adImg.png") no-repeat center left;
+}
+.bbsinputMain .inputBar .emotion {
+  background: url("../images/bbs/bbs_face.png") no-repeat center left;
+}
+.bbsinputMain .textInput {
+  border-top: none;
+  min-height: 200px;
+  margin-left: -40px;
+  width: 100%;
+  background: #FAFAFA;
+  padding: 10px;
+  resize: none;
+}
+.bbsBottom .bbsLfRule {
+  margin-left: -40px;
+}
+.bbsBottom .widget {
+  height: 20px;
+  line-height: 20px;
+  margin: 10px 0;
+}
+.bbsBottom .widget label {
+  padding: 0 10px 0 2px;
+  display: inline;
+}
+.bbsBottom .widget input[type=radio] {
+  margin: 0;
+}
+.bbsBottom .widget .btnDraft {
+  width: 80px;
+  border: 1px solid #FFF100;
+  margin-right: 10px;
+  border-radius: 3px;
+}
+.bbsBottom .widget .saveDraft {
+  color: #FFF100;
+  background: #fff;
+}
+.bbsBottom .widget .postInfo {
+  color: #fff;
+  background: #FFF100;
+}
+.topicTitle {
+  width: 40%;
+  font-size: 1rem;
+}
+.topicTitle a {
+  color: #666;
+}
+.topicName {
+  width: 12%;
+  color: #666;
+}
+.topicTime {
+  color: #666;
+  width: 14%;
+}
+.topicShare {
+  width: 12%;
+  padding-left: 23px;
+  background: url("../images/bbs/diz_share.png") no-repeat center left;
+}
+.topicComments {
+  width: 12%;
+  padding-left: 26px;
+  background: url("../images/bbs/diz_comm.png") no-repeat center left;
+}
+.topicLikes {
+  width: 7%;
+  padding-left: 23px;
+  background: url("../images/bbs/diz_heart_empty.png") no-repeat center left;
+}
+@media screen and (max-width: 767px) {
+  .ctnLf {
+    width: 100%;
+  }
+  .topicTitle {
+    width: 35%;
+    font-size: .8rem;
+  }
+  .topicName {
+    width: 14%;
+  }
+  .topicTime {
+    width: 15%;
+  }
+  .topicShare {
+    width: 12%;
+  }
+  .topicComments {
+    width: 12%;
+  }
+  .topicLikes {
+    width: 5%;
+  }
+  .bbsTitle .hisTopic {
+    width: 16%;
+  }
+}

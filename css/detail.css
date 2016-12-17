@@ -1,0 +1,95 @@
+a {
+  color: #A2A2A2;
+}
+img {
+  max-width: 100%;
+}
+.g-in {
+  display: inline-block;
+}
+#top_main {
+  text-align: center;
+  height: 80px;
+  line-height: 80px;
+}
+#top_main img {
+  vertical-align: middle;
+}
+/*.theme {
+  width: 80%;
+  margin: 10px auto;
+  height: 50px;
+  line-height: 50px;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  .line {
+    display: inline-block;
+    vertical-align: 25px;
+    position: absolute;
+    width: 30%;
+    border-top: 1px solid @color-title-yellow;
+  }
+  .theme-wrapper {
+    position: relative;
+    margin: auto;
+    .text-cn {
+      text-align: center;
+      display: inline-block;
+      position: absolute;
+      top: -10px;
+      left: 46px;
+      font-size: 1.6rem;
+      color: @font-title-green;
+    }
+    .text-en {
+      position: absolute;
+      top: 13px;
+      left: 32px;
+      color: @color-yellow-dk;
+      font-size: 1rem;
+    }
+  }
+}*/
+.linelf {
+  top: 22px;
+  left: 116px;
+}
+.linert {
+  top: 22px;
+  right: 116px;
+}
+.styles {
+  margin: 0 auto;
+  text-align: center;
+}
+.styles .styleDetail {
+  text-align: center;
+}
+.stylelist {
+  margin-top: 10px;
+  border: 1px solid #F6F731;
+  padding: 5px;
+}
+.stylelist .lfbox {
+  width: 60%;
+}
+.stylelist .lfbox img {
+  max-width: 100%;
+}
+.stylelist .rtbox {
+  width: 30%;
+  margin-left: 2px;
+}
+.stylelist .styletext {
+  text-align: center;
+  line-height: 47px;
+}
+.contactUs {
+  width: 60%;
+  margin: 10px auto;
+  font-size: 0.8rem;
+}
+.contactUs .address li {
+  line-height: 40px;
+}

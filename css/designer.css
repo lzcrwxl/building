@@ -1,0 +1,264 @@
+a {
+  color: #A2A2A2;
+}
+img {
+  max-width: 100%;
+}
+.banner-box {
+  position: relative;
+}
+.banner-md {
+  width: 50%;
+  margin: auto;
+  height: 80%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  font-size: .8rem;
+}
+.profile img {
+  width: 23%;
+  border-radius: 50%;
+  padding: 2px;
+  background: #fff;
+}
+.address {
+  color: #fff;
+  margin: 30px 0;
+  font-size: .8rem;
+}
+.address span {
+  padding: 5px 0 5px 22px;
+  background: url("../images/designer/design_address.png") no-repeat center left;
+  vertical-align: bottom;
+}
+.forcus {
+  font-size: .8rem;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  background: #FFF100;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  margin: auto;
+}
+.productTitle .productShow {
+  color: #FFF100;
+  font-size: 1.6rem;
+  height: 50px;
+  line-height: 50px;
+}
+.productTitle .hr-1 {
+  border-bottom: 2px solid #FFF100;
+  width: 150px;
+}
+.productTitle .hr-2 {
+  width: 78%;
+  border-bottom: 1px solid #A2A2A2;
+}
+.productCtn {
+  margin: 20px 0;
+}
+.productCtn .proMainTitle {
+  width: 95%;
+  padding-left: 20px;
+  font-size: 1.2rem;
+  color: #666;
+  margin: 10px 0;
+}
+.productCtn .contentInfo {
+  width: 95%;
+  padding-left: 20px;
+  font-size: 1rem;
+  line-height: 24px;
+}
+.productCtn .imgShow {
+  margin: 10px 0;
+  /* img:not(:last-child) {
+      margin: 0 10px;
+    }*/
+}
+.ctnLf {
+  width: 70%;
+}
+.moreStyle {
+  width: 92%;
+}
+.comments {
+  border: 1px solid #FFF100;
+  padding: 0 20px;
+}
+.comments .commentTitle {
+  color: #666;
+  font-size: 1.2rem;
+  margin: 20px 0;
+}
+.comments .commentList {
+  border: 1px solid #FFF100;
+}
+.comments .commentList li {
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding: 10px 0;
+  color: #666;
+}
+.comments .commentList li .rate {
+  margin-top: -2px;
+}
+.comments .commentDetail {
+  margin: 20px 0;
+}
+.comments .commentDetail .commentLf {
+  text-align: center;
+}
+.comments .commentDetail .commentRt {
+  width: 91%;
+}
+.comments .commentDetail .commentRt .commentRtTitle {
+  line-height: 30px;
+  height: 30px;
+}
+.comments .commentDetail .commentRt .commentRtTitle .rtGoodComment {
+  float: left;
+  padding-left: 30px;
+  background: url("../images/designer/design_face.png") no-repeat center left;
+  color: #FFF100;
+  font-size: 1rem;
+}
+.comments .commentDetail .commentRt .commentRtTitle .times {
+  font-size: .8rem;
+}
+.comments .commentDetail .commentRt .commentRtDetail {
+  margin: 5px 0;
+  font-size: .8rem;
+}
+.comments .commentDetail .commentRt .commentRthouse {
+  color: #CBCBCB;
+}
+.goodComment {
+  color: #FFF100;
+}
+.commentCount {
+  font-size: 1.2rem;
+}
+.page {
+  border-top: 1px solid #FFF100;
+}
+.page .pageItem {
+  text-align: center;
+}
+.page .pageItem li {
+  display: inline-block;
+  font-size: 1.2rem;
+  padding: 4px 11px;
+  margin: 20px 13px;
+  cursor: pointer;
+  color: #CBCBCB;
+}
+.currentPage {
+  background: #FFF100;
+  color: #fff !important;
+}
+.ctnRt {
+  width: 29%;
+}
+.profileInfo {
+  margin-top: 20px;
+  text-align: center;
+}
+.profileInfo dd {
+  font-size: 1rem;
+  color: #666;
+}
+.profileBox {
+  font-size: .8rem;
+  padding: 0 20px;
+  line-height: 20px;
+}
+.profileBox .draftInfo {
+  font-size: 0;
+}
+.profileBox .draftInfo li {
+  margin: 0;
+  font-size: .8rem;
+  display: inline-block;
+  width: 50%;
+}
+.profileBox .info {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.profileBox a {
+  color: #FFF100;
+}
+.adds-rt {
+  margin-right: 20px;
+}
+.shopName {
+  font-size: 1.2rem;
+  color: #666;
+  margin: 10px 10px 20px 10px;
+}
+.square {
+  background: url("../images/designer/design-sq.png") no-repeat center center;
+  height: 130px;
+  position: relative;
+  background-size: contain;
+}
+.square .case {
+  position: absolute;
+  top: 0;
+  left: 19%;
+  color: #666;
+  font-size: 1rem;
+}
+.square .description {
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  width: 90%;
+  height: 70%;
+  font-size: 1rem;
+  overflow: hidden;
+}
+.mainContent {
+  line-height: 20px;
+  margin: 10px;
+  font-size: 1rem;
+}
+.infoMore {
+  margin: 0 20px 0 0;
+}
+.infoMore dd {
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin: 5px 0 20px 0;
+}
+.infoMoreRt h1 {
+  font-size: 1.4rem;
+  color: #666;
+  line-height: 40px;
+}
+.infoMoreRt .detail li {
+  line-height: 23px;
+  margin: 0;
+}
+.infoMoreRt .detail li:hover {
+  text-decoration: none;
+}
+.breadDetail {
+  width: 100%;
+  font-size: .8rem;
+}
+@media screen and (max-width: 767px) {
+  .ctnLf {
+    width: 100%;
+  }
+}
