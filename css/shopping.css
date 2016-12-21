@@ -101,3 +101,12 @@ img {
     margin-bottom: 10px;
   }
 }
+.business-logo {
+  text-align: center;
+}
+.business-logo .imgLogo {
+  margin: 0!important;
+}
+.salesNavAd {
+  margin-top: 20px;
+}

@@ -1,0 +1,335 @@
+.formg {
+  background: #FAFAFA;
+}
+.auto {
+  margin: 0 auto;
+}
+body {
+  font-size: .8rem;
+}
+img {
+  max-width: 100%;
+}
+.decorationTitle {
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #666;
+}
+.decorationBox {
+  min-height: 50px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+ul {
+  vertical-align: top;
+}
+ul li {
+  font-size: 0;
+  margin-bottom: 20px;
+}
+ul li h3 {
+  vertical-align: middle;
+  width: 10%;
+  font-size: .8rem;
+}
+ul li h3 i {
+  font-style: normal;
+  width: 12px;
+}
+ul li input[type="text"] {
+  font-size: .8rem;
+}
+ul li select {
+  font-size: .8rem;
+}
+ul li h4 {
+  text-align: right;
+  margin-left: 30px;
+  vertical-align: middle;
+}
+ul li p {
+  padding: 10px;
+  border: 1px dashed #FFF100;
+}
+ul li .info {
+  vertical-align: top;
+}
+ul li .addPic {
+  border: 1px dashed #FFF100;
+  width: 100%;
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+ul li .addPic .row {
+  margin: 0;
+}
+ul li .addPic .col-xs-4 {
+  padding: 5px;
+}
+ul li .addPic .minusBtn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+ul li .addPic .addBtn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+ul li .rules {
+  margin-top: 10px;
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+ul li .rules input[type='checkbox'] {
+  visibility: hidden;
+}
+ul li .btnSubmit {
+  padding: 10px 30px;
+  background: #FFF100;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.form-base {
+  height: 42px;
+  line-height: 42px;
+  padding: 0 10px;
+  font-size: .8rem;
+}
+.selImg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  cursor: pointer;
+}
+.imgInnerBox {
+  position: relative;
+}
+.dummy {
+  margin-top: 100%;
+}
+@media screen and (max-width: 767px) {
+  .decorationBox {
+    width: 90%;
+  }
+  .decorationBox ul li h3 {
+    width: 14%;
+  }
+  .decorationBox input[type="text"],
+  .decorationBox p,
+  .decorationBox .rtImg {
+    width: 86%;
+  }
+  .decorationBox select {
+    width: 36% !important;
+  }
+}
+.rowCtn {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.rowCtn:not(:last-child) {
+  border-bottom: 1px solid #FFF100;
+}
+.rowCtn dl {
+  text-align: center;
+}
+.rowCtn dl dt {
+  margin: 5px 0;
+}
+.rowCtn dl dd {
+  margin: 5px 0;
+}
+.rowCtn dl dd span {
+  display: inline-block;
+  padding: 3px 18px;
+  margin: 0 3px;
+  border-radius: 5px;
+  color: #FFF100;
+  cursor: pointer;
+}
+.appInfo {
+  margin-top: 10px;
+}
+.appInfoStyle {
+  line-height: 100px;
+  text-align: center;
+  cursor: pointer;
+  padding: 0;
+  position: relative;
+}
+textarea {
+  resize: none;
+  padding: 10px;
+  border: 1px dashed #FFF100;
+}
+.appSize {
+  height: 100px;
+}
+input[type='file'] {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  font-size: 100px;
+  right: 0;
+  top: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+input[type='checkbox'] {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.chkStyle {
+  position: relative;
+  width: 12px;
+  height: 12px;
+  margin-right: 10px;
+}
+.btnUpload {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.btnUpload span {
+  padding: 10px 80px;
+  background: #FFF100;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .decorationMain {
+    width: 60%;
+  }
+}
+.backgroundshow {
+  background: url("../images/selected.png") no-repeat center center;
+  background-size: 14px 14px;
+}
+.audit {
+  margin: 50px auto;
+  display: table;
+  width: 40%;
+  height: 200px;
+  text-align: center;
+}
+.audit div {
+  display: table-cell;
+  vertical-align: middle;
+}
+.editMain {
+  padding: 0 20px;
+}
+.editMain h1 {
+  font-size: 1rem;
+  height: 50px;
+  line-height: 50px;
+  color: #666;
+}
+.editMain .editDetail {
+  margin: 20px 0;
+}
+.editMain .editDetail li h3 {
+  width: 7%;
+}
+.editMain .editDetail li input[type="text"] {
+  width: 40%;
+}
+.editMain .editDetail li textarea {
+  width: 93%;
+}
+.editMain .editDetail li .companyLogo {
+  width: 8%;
+  margin-left: 30px;
+}
+.editMain .editDetail li .rtTitle {
+  margin-left: 60px;
+}
+@media screen and (max-width: 767px) {
+  .editMain {
+    width: 100% !important;
+  }
+  .editMain input[type="text"] {
+    width: 32% !important;
+  }
+  .editMain h3 {
+    width: 12% !important;
+  }
+}
+.addPrd .rowf1 {
+  margin-bottom: 20px;
+}
+.addPrd #cizhuan {
+  margin-left: 20px;
+}
+.addPrd .price {
+  width: 7%;
+  text-align: right;
+}
+.addPrd .position {
+  vertical-align: middle;
+}
+.prdCategoryNav {
+  width: 100%;
+  margin-top: 0;
+}
+.titleCategory {
+  height: 40px;
+  line-height: 40px;
+}
+.titleCategory h1 {
+  font-size: 1.2rem;
+}
+.btnBase {
+  width: 20%;
+  margin-left: 20px;
+  background: #FFF100;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  vertical-align: middle;
+}
+.ctnCategory {
+  margin-top: 30px;
+}
+.ctnCategory li {
+  height: 40px;
+  line-height: 40px;
+}
+.ctnCategory li .btnStyle {
+  border-bottom: 2px solid #FFF100;
+  width: 15%;
+  text-align: center;
+  margin: 0 10px;
+  vertical-align: middle;
+}
+.categoryAdd li h3 {
+  width: 14%;
+}
+.categoryAdd li input,
+.categoryAdd li select {
+  width: 86%;
+}
+.categoryAdd li .btnUpload {
+  width: 86%;
+}

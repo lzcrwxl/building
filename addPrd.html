@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>商品添加</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/decoration.css">
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.min.js"></script>
+  <script src="js/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<!--页面头部-->
+<iframe src="header.html" frameborder="0" width="100%" height="46px" scrolling="no"></iframe>
+<!--搜索框-->
+<div id="top-main">
+  <div class="breadcrumbs bbsbread">
+    当前位置：<a href="#">首页</a>&nbsp;＞&nbsp;<a href="#">建材商</a>&nbsp;＞&nbsp;<span>商品添加</span>
+  </div>
+</div>
+<!--主体内容-->
+<section id="main" class="bcyellow">
+  <div class="decorationTitle">
+    商品添加
+  </div>
+  <div class="decorationBox w70">
+    <ul class="addPrd">
+      <li>
+        <h3 class="dib">商品名称<i class="selectColor dib">*</i>:</h3>
+        <input type="text" class="dib bcyellow form-base formg w90" placeholder="阿曼米黄">
+      </li>
+      <li>
+        <h3 class="dib position">区域地址<i class="selectColor dib">*</i>:</h3>
+        <div class="dib w90">
+          <div class="row rowf1">
+            <div class="col-xs-4">
+              <select name="" id="city" class="bcyellow seladdress form-base formg w100">
+                <option value="sh" selected>上海</option>
+                <option value="sh">北京</option>
+                <option value="sh">天津</option>
+              </select>
+            </div>
+            <div class="col-xs-4">
+              <select name="" id="district" class="bcyellow seladdress form-base formg w100">
+                <option value="sj" selected>松江区</option>
+                <option value="sj">闵行区</option>
+                <option value="sj">浦东新区</option>
+              </select>
+            </div>
+            <div class="col-xs-4">
+              <select name="" id="road" class="bcyellow seladdress form-base rt formg w100">
+                <option value="sj" selected>江田东路</option>
+                <option value="sj">南京路</option>
+                <option value="sj">荣乐路</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <input type="text" class="dib bcyellow form-base formg w100" placeholder="居然之家">
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <h3 class="dib position">产品展示<i class="selectColor dib">*</i>:</h3>
+        <div class="dib w90">
+          <div class="row">
+            <div class="col-xs-4">
+              <select name="" class="bcyellow seladdress form-base formg w100">
+                <option value="js" selected>骆驼超晶石</option>
+                <option value="js">骆驼超晶石</option>
+                <option value="js">骆驼超晶石</option>
+              </select>
+            </div>
+            <div class="col-xs-4">
+              <select name="" class="bcyellow seladdress form-base formg w100">
+                <option value="sj" selected>CWA80112</option>
+                <option>CWA80112</option>
+                <option>CWA80112</option>
+              </select>
+            </div>
+            <div class="col-xs-4">
+              <select name="" class="bcyellow seladdress form-base rt formg w100">
+                <option value="sj" selected>80×80mm</option>
+                <option value="sj">南京路</option>
+                <option value="sj">荣乐路</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <h3 class="dib">商品分类:</h3>
+        <select name="" class="bcyellow seladdress form-base formg w20">
+          <option value="js" selected>瓷砖</option>
+          <option>骆驼超晶石</option>
+          <option>骆驼超晶石</option>
+        </select>
+        <select name="" class="bcyellow seladdress form-base formg w20" id="cizhuan">
+          <option value="js" selected>通体砖</option>
+          <option>骆驼超晶石</option>
+          <option>骆驼超晶石</option>
+        </select>
+        <h3 class="dib price">价格:</h3>
+        <select name="" class="bcyellow seladdress form-base formg rt w40">
+          <option value="js" selected>￥358-428</option>
+          <option>骆驼超晶石</option>
+          <option>骆驼超晶石</option>
+        </select>
+      </li>
+      <li>
+        <h3 class="dib info appInfo">商品介绍<i class="selectColor dib">*</i>:</h3>
+        <textarea class="dib f08 w90 formg appSize">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad assumenda atque dolorum eaque est ipsam iste modi necessitatibus, numquam provident quas quis ratione totam vel. Eveniet pariatur quod tempora!</textarea>
+      </li>
+      <li>
+        <h3 class="dib info appInfo">商品特点<i class="selectColor dib">*</i>:</h3>
+        <textarea class="dib f08 w90 formg appSize" style="height: 50px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad assumenda atque  tempora!</textarea>
+      </li>
+      <li>
+        <h3 class="dib info">上传图片<i class="selectColor dib">*</i>:</h3>
+        <div class="dib w90 rtImg">
+          <div class="dib f08 addPic container formg">
+            <div class="row ">
+              <div class="col-xs-4 col-md-2 minusBox">
+                <div class="imgInnerBox">
+                  <img src="images/addImg.png" alt="">
+                  <div class="minusBtn">
+                    <img src="images/decoration-minus.png" alt="" class="selImg">
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-4 col-md-2"><img src="images/addImg.png" alt=""></div>
+              <div class="col-xs-4 col-md-2"><img src="images/addImg.png" alt=""></div>
+              <div class="col-xs-4 col-md-2"><img src="images/addImg.png" alt=""></div>
+              <div class="col-xs-4 col-md-2"><img src="images/addImg.png" alt=""></div>
+              <div class="col-xs-4 col-md-2"><img src="images/addImg.png" alt=""></div>
+            </div>
+            <div class="row">
+              <div class="col-xs-4 col-md-2"><img src="images/addImg.png" alt=""></div>
+              <div class="col-xs-4 col-md-2"><img src="images/addImg.png" alt=""></div>
+              <div class="col-xs-4 col-md-2"><img src="images/addImg.png" alt=""></div>
+              <div class="col-xs-4 col-md-2"><img src="images/addImg.png" alt=""></div>
+              <div class="col-xs-4 col-md-2"><img src="images/addImg.png" alt=""></div>
+              <div class="col-xs-4 col-md-2">
+                <div class="imgInnerBox bcyellow">
+                  <div class="dummy"></div>
+                  <img src="images/decoration-add.png" alt="" class="selImg">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="f08 rules clear">
+            <span class="dib chkStyle bcyellow">
+            <input type="checkbox">
+          </span>
+            我保证所上传的商品是正品，并非无质量保障的商品,如果有侵权，我将承担一些版权纠纷责任。
+          </div>
+          <div>
+            <span class="btnSubmit">开始上传</span>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+<!--页面底部-->
+<div class="returnHome">返回首页</div>
+<iframe src="footer.html" frameborder="0" width="100%" height="46px" scrolling="no"></iframe>
+</body>
+<script src="frameworks/jquery-1.11.3.js"></script>
+<script src="frameworks/bootstrap.min.js"></script>
+<script src="frameworks/bootlint.js"></script>
+<script src="js/app.js"></script>
+</html>
